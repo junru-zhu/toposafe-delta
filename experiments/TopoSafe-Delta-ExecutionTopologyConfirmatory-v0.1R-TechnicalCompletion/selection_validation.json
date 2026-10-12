@@ -1,0 +1,11 @@
+{
+  "errors": [],
+  "gpt_interrupted_provider_errors": 10,
+  "gpt_interrupted_rows": 12,
+  "passed": true,
+  "selected_counts": {
+    "gpt-5.4": 1440,
+    "nemotron-3-super-120b": 7
+  },
+  "status": "automatic_recovery_gate_passed"
+}

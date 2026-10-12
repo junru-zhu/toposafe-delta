@@ -1,0 +1,20 @@
+{
+  "automatic_check_counts": {
+    "action_order_permutations": 720,
+    "oracle_trace_checks": 480,
+    "paired_prompt_checks": 720,
+    "proof_assignments": 192,
+    "semantic_contract_tasks": 120
+  },
+  "automatic_gate_passed": true,
+  "automatic_validation_protocol": "deterministic_contract_metamorphic_validation_v1",
+  "candidate_tasks": 120,
+  "candidate_tasks_sha256": "67c8eddec5cd1f5cfe867effccbdb87c6bc925ac5a41aacbd02706c1ecf27371",
+  "catalog_sha256": "566de94078ac2b7aa4d8a8959f301da07f23ca1e655efc80b4d433ad35fd4967",
+  "confirmatory_eligibility": "eligible_for_freeze_preflight",
+  "human_review_required": false,
+  "human_review_used_as_evidence": false,
+  "legacy_human_review_artifacts_used": false,
+  "package_name": "TopoSafe-Delta-AuthorityComposition-v0.2",
+  "task_package_version": "toposafe-authority-tasks-v0.2"
+}

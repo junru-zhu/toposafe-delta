@@ -1,0 +1,18 @@
+{
+  "blockers": [],
+  "checked_at": "2026-10-06T19:31:10.095740+00:00",
+  "checks": {
+    "automatic_task_gate": true,
+    "design_unfrozen": true,
+    "human_review_absent": true,
+    "initial_call_budget": true,
+    "initial_cases_per_model": true,
+    "recovery_call_ceiling": true,
+    "zero_provider_calls": true
+  },
+  "excluded_smoke_calls": 8,
+  "experiment_id": "TopoSafe-Delta-RuntimeEnforcement-v0.2",
+  "formal_initial_calls": 2688,
+  "maximum_formal_recovery_calls": 960,
+  "status": "ready_to_freeze"
+}

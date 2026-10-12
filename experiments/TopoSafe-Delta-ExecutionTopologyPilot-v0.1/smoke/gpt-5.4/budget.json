@@ -1,0 +1,12 @@
+{
+  "conservative_cost_usd": 0.003828,
+  "cumulative_conservative_cost_usd": 0.003828,
+  "episodes": 2,
+  "estimated_cost_usd": 0.00319,
+  "experiment_id": "TopoSafe-Delta-ExecutionTopologyPilot-v0.1",
+  "hard_budget_cap_usd": 10.0,
+  "input_tokens": 974,
+  "model_slug": "gpt-5.4",
+  "output_tokens": 31,
+  "stage": "smoke"
+}

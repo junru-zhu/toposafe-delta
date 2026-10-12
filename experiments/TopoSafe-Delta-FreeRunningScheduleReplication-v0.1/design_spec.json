@@ -1,0 +1,54 @@
+{
+  "changed_factor": {
+    "name": "schedule_seed_and_resulting_execution_order",
+    "parent_value": 2026100641,
+    "replication_value": 2026100671
+  },
+  "decision_rules": {
+    "cross_schedule_replication": "A topology contrast replicates across schedules when the same model-level direction has absolute paired estimate at least 0.10 and a 95% task-bootstrap interval excluding zero in both schedules; cross-model replication requires at least three model blocks.",
+    "large_effect_threshold": 0.1,
+    "practical_equivalence_margin": 0.1,
+    "replication_analysis": "Repeat the frozen B2 topology and semantic-increment classifications with 5000 task-bootstrap draws.",
+    "schedule_difference": "Estimate replication topology contrast minus parent topology contrast on the same task clusters."
+  },
+  "evidence_type": "independent_execution_schedule_replication",
+  "experiment_id": "TopoSafe-Delta-FreeRunningScheduleReplication-v0.1",
+  "fixed_components": {
+    "assigned_model_calls_per_episode": 7,
+    "cases_and_prompt_inventory": "byte_or_hash_identical_to_parent_except_non_prompt_study_status_fields",
+    "connect_timeout_seconds": 10,
+    "executor_max_output_tokens": 200,
+    "forward_max_output_tokens": 512,
+    "forward_response_mode": "structured_tool_auto",
+    "maximum_provider_attempts": 3,
+    "models": [
+      "gpt-5.4",
+      "claude-sonnet-5",
+      "nemotron-3-super-120b",
+      "llama-4-maverick"
+    ],
+    "read_timeout_seconds": 180,
+    "scoring_and_runtime_gate": "identical_to_parent",
+    "workers": 6
+  },
+  "formal_assigned_model_calls": 20160,
+  "formal_episodes": 2880,
+  "formal_tasks": 30,
+  "human_review_required": false,
+  "human_review_used_as_evidence": false,
+  "manual_case_selection": false,
+  "parent_experiment_id": "TopoSafe-Delta-FreeRunningCommunication-v0.3",
+  "provider_calls_completed": 0,
+  "provider_seed_supported": false,
+  "smoke_model_calls_excluded": 56,
+  "status": "design_only_unfrozen",
+  "validity_gates": {
+    "executed_invalid_proof_violations": 0,
+    "maximum_active_forward_malformed_or_truncated_rate": 0.02,
+    "maximum_executor_malformed_or_truncated_rate": 0.02,
+    "parent_b2_model_gate_required": true,
+    "parent_frozen_source_hashes_required": true,
+    "prompt_inventory_must_match_parent": true,
+    "provider_errors": 0
+  }
+}

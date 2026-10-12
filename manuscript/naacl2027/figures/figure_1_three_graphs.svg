@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="650" viewBox="0 0 1500 650">
+  <defs>
+    <marker id="arrow-blue" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#0072B2"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#E69F00"/>
+    </marker>
+    <marker id="arrow-purple" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#CC79A7"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#009E73"/>
+    </marker>
+    <style>
+      .title { font: 700 31px "Times New Roman", Times, serif; fill: #222; }
+      .subtitle { font: 24px "Times New Roman", Times, serif; fill: #444; }
+      .label { font: 700 25px "Times New Roman", Times, serif; fill: #222; }
+      .small { font: 21px "Times New Roman", Times, serif; fill: #333; }
+      .tiny { font: 19px "Times New Roman", Times, serif; fill: #444; }
+      .node { fill: #fff; stroke: #444; stroke-width: 2.2; }
+      .proof { fill: #FFF5DF; stroke: #E69F00; stroke-width: 2.5; }
+      .gate { fill: #EAF7F2; stroke: #009E73; stroke-width: 3; }
+      .action { fill: #F8EEF7; stroke: #CC79A7; stroke-width: 2.5; }
+      .group { fill: #FAFAFA; stroke: #C9C9C9; stroke-width: 1.8; }
+      .blue { stroke: #0072B2; stroke-width: 4; fill: none; marker-end: url(#arrow-blue); }
+      .orange { stroke: #E69F00; stroke-width: 4; fill: none; marker-end: url(#arrow-orange); }
+      .purple { stroke: #CC79A7; stroke-width: 4; fill: none; marker-end: url(#arrow-purple); }
+      .green { stroke: #009E73; stroke-width: 4; fill: none; marker-end: url(#arrow-green); }
+      .invalid { stroke: #D55E00; stroke-width: 3; stroke-dasharray: 10 7; fill: none; }
+    </style>
+  </defs>
+
+  <text x="55" y="55" class="title">One language claim, three different relations</text>
+  <text x="55" y="91" class="subtitle">Routing a statement does not authorize it; authorizing it does not execute it.</text>
+
+  <rect x="45" y="125" width="910" height="145" rx="18" class="group"/>
+  <text x="68" y="160" class="label" fill="#0072B2">Communication graph G<tspan baseline-shift="sub" font-size="18">C</tspan></text>
+  <text x="68" y="192" class="tiny">Who receives the claim envelope?</text>
+  <rect x="340" y="165" width="125" height="58" rx="29" class="node"/>
+  <rect x="515" y="165" width="125" height="58" rx="29" class="node"/>
+  <rect x="690" y="165" width="125" height="58" rx="29" class="node"/>
+  <text x="402" y="202" text-anchor="middle" class="small">source</text>
+  <text x="577" y="202" text-anchor="middle" class="small">relay</text>
+  <text x="752" y="202" text-anchor="middle" class="small">executor</text>
+  <path d="M465,194 L515,194" class="blue"/>
+  <path d="M640,194 L690,194" class="blue"/>
+  <text x="493" y="153" text-anchor="middle" class="tiny" fill="#0072B2">claim</text>
+  <text x="665" y="153" text-anchor="middle" class="tiny" fill="#0072B2">claim</text>
+
+  <rect x="45" y="292" width="910" height="145" rx="18" class="group"/>
+  <text x="68" y="327" class="label" fill="#E69F00">Authority graph G<tspan baseline-shift="sub" font-size="18">A</tspan></text>
+  <text x="68" y="359" class="tiny">Who can jointly authorize the claim?</text>
+  <circle cx="390" cy="393" r="25" class="node"/>
+  <circle cx="505" cy="393" r="25" class="node"/>
+  <circle cx="620" cy="393" r="25" class="node"/>
+  <text x="390" y="401" text-anchor="middle" class="small">S</text>
+  <text x="505" y="401" text-anchor="middle" class="small">V</text>
+  <text x="620" y="401" text-anchor="middle" class="small">Q</text>
+  <rect x="735" y="365" width="145" height="56" rx="12" class="proof"/>
+  <text x="807" y="401" text-anchor="middle" class="small">proof π</text>
+  <path d="M415,385 C520,370 640,370 735,381" class="orange"/>
+  <path d="M530,393 C610,393 665,393 735,393" class="orange"/>
+  <path d="M645,401 C680,414 705,414 735,405" class="orange"/>
+  <text x="350" y="429" class="tiny">single: κ<tspan baseline-shift="sub" font-size="14">A</tspan>=1</text>
+  <text x="555" y="429" class="tiny">SoD / 2-of-3: κ<tspan baseline-shift="sub" font-size="14">A</tspan>=2</text>
+
+  <rect x="45" y="459" width="910" height="145" rx="18" class="group"/>
+  <text x="68" y="494" class="label" fill="#CC79A7">Execution graph G<tspan baseline-shift="sub" font-size="18">E</tspan></text>
+  <text x="68" y="526" class="tiny">Who can request the protected transition?</text>
+  <rect x="405" y="516" width="155" height="58" rx="29" class="node"/>
+  <rect x="700" y="507" width="185" height="76" rx="13" class="action"/>
+  <text x="482" y="553" text-anchor="middle" class="small">executor</text>
+  <text x="792" y="540" text-anchor="middle" class="small">protected</text>
+  <text x="792" y="568" text-anchor="middle" class="small">action x</text>
+  <path d="M560,545 L700,545" class="purple"/>
+
+  <path d="M955,194 C1010,194 1005,260 1040,278" class="blue"/>
+  <path d="M880,375 C975,375 980,330 1040,319" class="orange"/>
+  <path d="M885,545 C995,545 990,390 1040,354" class="purple"/>
+
+  <rect x="1040" y="252" width="235" height="130" rx="18" class="gate"/>
+  <text x="1157" y="301" text-anchor="middle" class="label">Verify<tspan baseline-shift="sub" font-size="18">x</tspan>(π)</text>
+  <text x="1157" y="339" text-anchor="middle" class="small">fail closed</text>
+
+  <rect x="1325" y="190" width="135" height="75" rx="13" class="action"/>
+  <text x="1392" y="222" text-anchor="middle" class="small">execute</text>
+  <text x="1392" y="249" text-anchor="middle" class="small">x</text>
+  <path d="M1275,290 C1310,280 1310,240 1325,230" class="green"/>
+  <text x="1298" y="257" class="tiny" fill="#009E73">valid</text>
+
+  <path d="M1275,348 C1335,390 1375,405 1440,405" class="invalid"/>
+  <line x1="1380" y1="381" x2="1420" y2="421" stroke="#D55E00" stroke-width="5"/>
+  <line x1="1420" y1="381" x2="1380" y2="421" stroke="#D55E00" stroke-width="5"/>
+  <text x="1290" y="431" class="tiny" fill="#D55E00">invalid proof is blocked</text>
+
+  <text x="1035" y="500" class="label">Authority cut</text>
+  <text x="1035" y="536" class="small">minimum independent principals</text>
+  <text x="1035" y="568" class="small">needed to forge a valid proof</text>
+  <text x="1035" y="606" class="small">c &lt; κ<tspan baseline-shift="sub" font-size="15">A</tspan>: structurally invalid</text>
+</svg>

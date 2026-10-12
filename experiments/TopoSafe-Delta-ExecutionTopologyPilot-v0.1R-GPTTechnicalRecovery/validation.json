@@ -1,0 +1,9 @@
+{
+  "episodes_expected": 6,
+  "episodes_observed": 6,
+  "errors": [],
+  "malformed": 0,
+  "passed": true,
+  "provider_errors": 0,
+  "truncated": 0
+}

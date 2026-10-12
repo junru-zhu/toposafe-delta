@@ -1,0 +1,178 @@
+{
+  "experiment_id": "TopoSafe-Delta-AuthorityComposition-v0.2",
+  "status": "design_only_unfrozen",
+  "provider_calls_completed": 0,
+  "evidence_snapshot": "2026-10-06",
+  "authority_regimes": {
+    "unsigned": {
+      "eligible_principals": [],
+      "threshold": null,
+      "authority_cut": null
+    },
+    "source_single": {
+      "eligible_principals": [
+        "A"
+      ],
+      "threshold": 1,
+      "authority_cut": 1
+    },
+    "relay_single": {
+      "eligible_principals": [
+        "B"
+      ],
+      "threshold": 1,
+      "authority_cut": 1
+    },
+    "verifier_single": {
+      "eligible_principals": [
+        "C"
+      ],
+      "threshold": 1,
+      "authority_cut": 1
+    },
+    "source_verifier_sod": {
+      "eligible_principals": [
+        "A",
+        "C"
+      ],
+      "threshold": 2,
+      "authority_cut": 2
+    },
+    "two_of_three_quorum": {
+      "eligible_principals": [
+        "A",
+        "B",
+        "C"
+      ],
+      "threshold": 2,
+      "authority_cut": 2
+    }
+  },
+  "threshold_extension": {
+    "tasks": 30,
+    "models": 4,
+    "regimes": [
+      "verifier_single",
+      "source_verifier_sod",
+      "two_of_three_quorum"
+    ],
+    "new_false_world_budgets": [
+      0,
+      2
+    ],
+    "reused_from_study_a": [
+      "false_update_c1",
+      "true_update"
+    ],
+    "formal_calls": 720
+  },
+  "mechanism_ablations": [
+    "duplicate_same_principal",
+    "remove_scope_binding",
+    "remove_freshness_binding",
+    "replay_stale_signed_proof",
+    "swap_source_verifier_identities",
+    "compromise_verifier_instead_of_source",
+    "randomize_authority_labels",
+    "remove_one_quorum_share",
+    "duplicate_unsigned_claim",
+    "natural_language_consensus"
+  ],
+  "call_budget": [
+    {
+      "id": "study_a_authority_composition",
+      "formula": "120 * 14 * 4",
+      "formal_calls": 6720
+    },
+    {
+      "id": "study_b1_matched_topology",
+      "formula": "120 * 4 * 3 * 2 * 4 + 120 * 2 * 4",
+      "formal_calls": 12480
+    },
+    {
+      "id": "study_b2_free_running_subset",
+      "formula": "30 * 4 * 3 * 2 * 4",
+      "formal_calls": 2880
+    },
+    {
+      "id": "schedule_robustness_subset",
+      "formula": "30 * 4 * 3 * 2 * 4",
+      "formal_calls": 2880
+    },
+    {
+      "id": "study_c_authority_cut_extension",
+      "formula": "30 * 3 * 2 * 4",
+      "formal_calls": 720
+    },
+    {
+      "id": "study_c_targeted_mechanism_ablations",
+      "formula": "30 * 10 * 4",
+      "formal_calls": 1200
+    }
+  ],
+  "confirmatory_call_total": 26880,
+  "models": {
+    "required_count": 4,
+    "fixed_candidates": [
+      "gpt-5.4",
+      "claude-sonnet-5",
+      "nemotron-3-super-120b",
+      "llama-4-maverick"
+    ],
+    "response_modes": {
+      "gpt-5.4": "json_text",
+      "claude-sonnet-5": "forced_action_tool",
+      "nemotron-3-super-120b": "json_text",
+      "llama-4-maverick": "auto_action_tool"
+    },
+    "fourth_family": "Llama 4 Maverick with automatic action-tool selection, provisional until the excluded v0.2 transport and response-mode preflight passes"
+  },
+  "correction_boundary": {
+    "predecessor": "TopoSafe-Delta-AuthorityComposition-v0.1",
+    "predecessor_evidence_status": "excluded_preflight_smoke_and_diagnostics_only",
+    "observed_issue": "Llama 4 Maverick produced 12 malformed max-token-truncated rows out of 28 excluded smoke rows, with zero provider errors and zero control failures",
+    "single_change": "Llama response transport changed from json_text to auto_action_tool",
+    "unchanged": [
+      "model_id",
+      "prompts",
+      "task_package",
+      "action_schema",
+      "temperature",
+      "max_output_tokens",
+      "scoring",
+      "statistical_design"
+    ]
+  },
+  "implementation_status": {
+    "candidate_tasks": 120,
+    "candidate_task_automatic_gate": "passed",
+    "automatic_validation_protocol": "deterministic_contract_metamorphic_validation_v1",
+    "semantic_contract_tasks_checked": 120,
+    "oracle_trace_checks": 480,
+    "action_order_permutations_checked": 720,
+    "paired_prompt_checks": 720,
+    "proof_assignments_checked": 192,
+    "human_review_required": false,
+    "human_review_used_as_evidence": false,
+    "study_a_cases_per_model": 1680,
+    "authority_cut_threshold_cases_per_model": 180,
+    "implemented_formal_calls": 7440,
+    "implemented_runner_scope": [
+      "study_a_authority_composition",
+      "study_c_authority_cut_extension"
+    ],
+    "remaining_planned_runner_scope": [
+      "study_b1_matched_topology",
+      "study_b2_free_running_subset",
+      "schedule_robustness_subset",
+      "study_c_targeted_mechanism_ablations"
+    ],
+    "freeze_preflight": "automatic_validation_passed_model_preflight_pending"
+  },
+  "blocking_dependencies": [
+    "120 candidate tasks must pass the frozen deterministic contract, oracle-replay, metamorphic, paired-prompt, and exhaustive proof-policy suite; no human review is required",
+    "the four-model roster is configured in code but the excluded transport and response-mode preflight has not been run",
+    "Study A and the authority-cut threshold runner and validator are implemented; matched-topology, schedule, and targeted-ablation runners remain planned",
+    "no confirmatory provider calls are authorized by this design artifact"
+  ]
+}

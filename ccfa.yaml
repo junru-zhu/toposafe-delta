@@ -1,0 +1,41 @@
+version: "1.0"
+project:
+  title: "TopoSafe-Delta: Separating Communication, Authorization, and Execution in Multi-Agent LLMs"
+  short_name: "toposafe-delta"
+  snapshot_date: "2026-10-12"
+  repository_scope: "private_research_snapshot"
+
+paper:
+  title: "When Messages Become Authority: Separating Communication, Authorization, and Execution in Multi-Agent LLMs"
+  source: "manuscript/naacl2027/main.tex"
+  pdf: "manuscript/naacl2027/main.pdf"
+  evidence_frozen_at: "2026-10-07"
+  formal_model_calls: 66090
+  status: "complete_anonymous_draft_not_submitted"
+
+mechanism:
+  system: "(G_C, G_A, G_E)"
+  authority_cut: "kappa_A(x)"
+  primary_boundary: "authority composition determines proof forgeability; fail-closed verification mediates protected execution"
+
+execution_topology_extension:
+  parent: "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1"
+  sensitivity: "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1S-ThreeModelSensitivity"
+  status: "three_model_sensitivity_complete_four_model_confirmatory_incomplete"
+  manuscript_integration: false
+  blocker: "GPT-5.4 formal block incomplete after bounded transport-timeout recovery attempts"
+
+evidence_rules:
+  - "Keep parent, recovery, and sensitivity packages separate."
+  - "Do not convert failed frozen gates into passes."
+  - "Do not claim four-model replication from the three-model sensitivity."
+  - "Do not treat synthetic executable outcomes as demonstrated real-world harm."
+
+artifacts:
+  experiment_index: "EXPERIMENTS.md"
+  status: "STATUS.md"
+  release_scope: "RELEASE_SCOPE.md"
+  paper_plan: "docs/toposafe-authority-topology-paper-plan.md"
+  claim_audit: "reviews/toposafe-naacl-claim-integrity-audit.md"
+  literature: "output/literature-search/causal-topology-safety/papers.md"
+

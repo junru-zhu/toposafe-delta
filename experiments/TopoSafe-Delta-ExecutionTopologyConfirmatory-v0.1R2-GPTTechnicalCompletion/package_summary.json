@@ -1,0 +1,9 @@
+{
+  "excluded_smoke_calls": 2,
+  "formal_calls": 1440,
+  "hard_budget_cap_including_parent_and_recoveries_usd": 12.0,
+  "projected_conservative_cost_usd": 3.335904,
+  "r2_experiment_id": "TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R2-GPTTechnicalCompletion",
+  "read_timeout_seconds": 600,
+  "status": "automatic_r2_gate_passed"
+}

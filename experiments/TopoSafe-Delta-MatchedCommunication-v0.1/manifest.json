@@ -1,0 +1,52 @@
+{
+  "active_models": [
+    "gpt-5.4",
+    "claude-sonnet-5",
+    "nemotron-3-super-120b",
+    "llama-4-maverick"
+  ],
+  "case_file": "experiments/TopoSafe-Delta-MatchedCommunication-v0.1/cases.json",
+  "cases_per_model": 3120,
+  "connect_timeout_seconds": 10,
+  "evidence_type": "matched_frozen_message_communication_topology_factorial",
+  "excluded_smoke_calls": 8,
+  "experiment_id": "TopoSafe-Delta-MatchedCommunication-v0.1",
+  "formal_calls": 12480,
+  "formal_tasks": 120,
+  "frozen_at": "2026-10-06T20:46:54.027933+00:00",
+  "human_review_required": false,
+  "human_review_used_as_evidence": false,
+  "manual_case_selection": false,
+  "max_output_tokens": 200,
+  "maximum_provider_attempts": 3,
+  "prompt_inventory_sha256": "b7db6cf978c8c2a9d5fab7c8ea9e73a03e29f3e60099737c012247853320ef06",
+  "provider_seed_supported": false,
+  "read_timeout_seconds": 180,
+  "schedule_seed": 2026100631,
+  "smoke_episode_ids": [
+    "tsc-approval-account-credit::study_b1__topo_A__verifier_single__false_update",
+    "tsc-approval-api-token-rotation::study_b1__topo_D__source_verifier_sod__false_update"
+  ],
+  "source_hashes": {
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/candidate_tasks.json": "f07c3af17214eab0f9d2bc9bc87d533e42f9ee50de3337093a3cf859ba13067c",
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/task_validation.json": "3e7ecebb5dd94f0c7b4089dc140e9d3ee735c77a59083aa103053ac85604d82e",
+    "experiments/TopoSafe-Delta-MatchedCommunication-v0.1/candidate_tasks.json": "f07c3af17214eab0f9d2bc9bc87d533e42f9ee50de3337093a3cf859ba13067c",
+    "experiments/TopoSafe-Delta-MatchedCommunication-v0.1/cases.json": "0f43efcbc8837200aa090244dc965748c2f247d18fdb263ff584e5f82a0b84bd",
+    "experiments/TopoSafe-Delta-MatchedCommunication-v0.1/design_spec.json": "3a44950d82d8c9768ec8a47d06e8a3b8ea905f3d10a659d795854c6a2a957af9",
+    "experiments/TopoSafe-Delta-MatchedCommunication-v0.1/package_summary.json": "daa9112c2a696eaf0b06f23efddffcb8594e7a6fecabf8df9c4dafcb7b75ae7f",
+    "experiments/TopoSafe-Delta-MatchedCommunication-v0.1/protocol.md": "1f7d21fe3fd065b7d49d0ef386f58dc2d657295318228892802687dce9838a10",
+    "experiments/TopoSafe-Delta-MatchedCommunication-v0.1/task_validation.json": "1d7d5c0af7afc8a20f618551a363770d97237a5840cab996073a866d7458bb8e",
+    "scripts/analyze_matched_communication_topology.py": "27e6c874b7b176efe4a1033652d7fd4e092e783d99cea33aff3bf7a83584a596",
+    "scripts/build_matched_communication_topology.py": "719c5040137b1199ec87b4f868c7891a7510d55f11a55d13e2a0b564b9f69a84",
+    "scripts/freeze_matched_communication_topology.py": "6b97764aecd2fe3b48a8ee307056fd1e379267e4df72dbeaa652f8aa8e3d4d51",
+    "scripts/run_matched_communication_topology.py": "318f1a10b9a68af6979e092a95cab313673a0a9f3a4af0801f0d4777cf4fc825",
+    "scripts/validate_matched_communication_topology.py": "f90e81631a5087d1dd5aa74e60f73e04448700af52636d2635750ab157b394df",
+    "src/swarmsafe_delta/authority_composition.py": "522fd78c126d0f2e78b7722b02ac1e8ed3050f5f41fe407cbc6fcb69a404b433",
+    "src/swarmsafe_delta/authority_placement.py": "9e5985bf03c58de053ed7923698ca22748a18ef2e7183d42462f2448adaf09ff",
+    "src/swarmsafe_delta/matched_communication_topology.py": "b1f43405d07c45de539e58e2311666add4eacbfd676a9537804a29c4bfe7b5ec",
+    "src/swarmsafe_delta/pilot.py": "82af638322e7eaa170771e10fbc0d44d84e5ade328b6e6eb3106c6c7ea9bdf24"
+  },
+  "status": "frozen_pre_run",
+  "task_file": "experiments/TopoSafe-Delta-MatchedCommunication-v0.1/candidate_tasks.json",
+  "workers": 6
+}

@@ -1,0 +1,12 @@
+{
+  "calls": 2,
+  "combined_cumulative_conservative_cost_usd": 6.908260032,
+  "conservative_cost_usd": 0.0,
+  "estimated_cost_usd": 0.0,
+  "hard_budget_cap_usd": 12.0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "provider_attempts": 2,
+  "r2_experiment_id": "TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R2-GPTTechnicalCompletion",
+  "stage": "smoke"
+}

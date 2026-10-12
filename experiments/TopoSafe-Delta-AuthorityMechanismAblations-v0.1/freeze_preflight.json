@@ -1,0 +1,19 @@
+{
+  "blockers": [],
+  "checked_at": "2026-10-06T22:47:52.551717+00:00",
+  "checks": {
+    "ablation_registry": true,
+    "automatic_gate": true,
+    "case_count": true,
+    "design_unfrozen": true,
+    "formal_call_count": true,
+    "formal_task_count": true,
+    "human_review_absent": true,
+    "parent_all_models_valid": true,
+    "zero_provider_calls": true
+  },
+  "excluded_smoke_calls": 4,
+  "experiment_id": "TopoSafe-Delta-AuthorityMechanismAblations-v0.1",
+  "formal_calls": 1200,
+  "status": "ready_to_freeze"
+}

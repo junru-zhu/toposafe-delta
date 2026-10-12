@@ -1,0 +1,49 @@
+{
+  "additional_model_request_fields": {
+    "thinking": {
+      "type": "disabled"
+    }
+  },
+  "conditions": [
+    "source_authority__unsigned__true_update",
+    "source_authority__unsigned__false_update",
+    "source_authority__platform_authenticated__true_update",
+    "source_authority__platform_authenticated__false_update",
+    "relay_authority__unsigned__true_update",
+    "relay_authority__unsigned__false_update",
+    "relay_authority__platform_authenticated__true_update",
+    "relay_authority__platform_authenticated__false_update",
+    "verifier_authority__unsigned__true_update",
+    "verifier_authority__unsigned__false_update",
+    "verifier_authority__platform_authenticated__true_update",
+    "verifier_authority__platform_authenticated__false_update",
+    "snapshot_only_false",
+    "fresh_state_visible_true"
+  ],
+  "connect_timeout_seconds": 10,
+  "created_at": "2026-10-05T23:00:42.104092+00:00",
+  "experiment_id": "TopoSafe-Delta-AuthorityPlacement-v1.4",
+  "max_attempts": 3,
+  "max_output_tokens": 200,
+  "model_id": "global.anthropic.claude-sonnet-5",
+  "model_slug": "claude-sonnet-5",
+  "module_sha256": "8432a75f5ad9a3cf79fa1e2a73c5925a5ea8b14e0ef4bfb4e9d82cdb2fb41516",
+  "planned_episodes": 28,
+  "planned_model_calls": 28,
+  "provider_seed_supported": false,
+  "read_timeout_seconds": 180,
+  "region": "us-east-1",
+  "root_manifest_sha256": "95a0d34d3f5c5e4354f4c4fc372ac09a9c9cf467660ea6c67a4b82e17ecad9c4",
+  "runner_sha256": "45d8e9a359508ab3f064cc3afcfa0967935ca8cc0ef8b6445c77bd879f68a83b",
+  "schedule_seed": 2026100507,
+  "stage": "smoke",
+  "status": "smoke_assigned",
+  "task_file_sha256": "007491e22730710d93af91a070b3e99a670a5b19ca25223759d17615521ab628",
+  "tasks": [
+    "approval-vendor-payment",
+    "protected-transfer-sso-trace"
+  ],
+  "temperature": null,
+  "top_p": null,
+  "workers": 6
+}

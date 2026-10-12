@@ -1,0 +1,24 @@
+{
+  "additional_model_request_fields": {
+    "reasoning_effort": "low"
+  },
+  "connect_timeout_seconds": 10,
+  "created_at": "2026-10-06T19:51:56.795878+00:00",
+  "experiment_id": "TopoSafe-Delta-RuntimeEnforcement-v0.2",
+  "force_action_tool": false,
+  "max_output_tokens": 200,
+  "maximum_provider_attempts": 3,
+  "model_id": "global.openai.gpt-5.4",
+  "model_slug": "gpt-5.4",
+  "phase": "recovery",
+  "planned_calls": 2,
+  "read_timeout_seconds": 180,
+  "region": "us-east-1",
+  "root_manifest_sha256": "bf1517cd68590ae825351962900b634d4069a3b34b3f234e98e89158fdb4b091",
+  "runner_sha256": "fb890b569294cfee50a5b6da6120e54be11894c09f8302d84ac920618affc676",
+  "schedule_seed": 2026100625,
+  "stage": "formal",
+  "temperature": null,
+  "top_p": null,
+  "workers": 6
+}

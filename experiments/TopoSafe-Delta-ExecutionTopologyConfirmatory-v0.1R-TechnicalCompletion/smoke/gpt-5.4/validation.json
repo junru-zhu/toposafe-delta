@@ -1,0 +1,14 @@
+{
+  "errors": [
+    "provider errors: 2",
+    "GPT recovery is not a complete model block"
+  ],
+  "expected_rows": 2,
+  "malformed": 0,
+  "model_slug": "gpt-5.4",
+  "observed_rows": 2,
+  "passed": false,
+  "provider_errors": 2,
+  "recovery_experiment_id": "TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R-TechnicalCompletion",
+  "truncated": 0
+}

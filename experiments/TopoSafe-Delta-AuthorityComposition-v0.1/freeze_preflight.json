@@ -1,0 +1,30 @@
+{
+  "automatic_task_gate_passed": true,
+  "automatic_validation": {
+    "action_order_permutations": 720,
+    "oracle_trace_checks": 480,
+    "paired_prompt_checks": 720,
+    "passed": true,
+    "proof_assignments": 192,
+    "protocol": "deterministic_contract_metamorphic_validation_v1",
+    "semantic_contract_tasks": 120
+  },
+  "blockers": [],
+  "candidate_tasks": 120,
+  "checked_at": "2026-10-06T18:49:31.025118+00:00",
+  "experiment_id": "TopoSafe-Delta-AuthorityComposition-v0.1",
+  "full_confirmatory_calls_planned": 26880,
+  "human_review_required": false,
+  "implemented_formal_calls": 7440,
+  "legacy_human_review_artifacts_used": false,
+  "model_preflight_present": true,
+  "models": [
+    "gpt-5.4",
+    "claude-sonnet-5",
+    "nemotron-3-super-120b",
+    "llama-4-maverick"
+  ],
+  "status": "ready_to_freeze",
+  "study_a_cases_per_model": 1680,
+  "threshold_cases_per_model": 180
+}

@@ -1,0 +1,58 @@
+{
+  "as_of": "2026-10-12",
+  "hard_budget_cap_usd": 10.0,
+  "provider_attempts": {
+    "excluded_smoke": 8,
+    "immutable_parent_formal": 512,
+    "technical_recovery": 6,
+    "total": 526
+  },
+  "recorded_usage": {
+    "input_tokens": 384952,
+    "output_tokens": 14421
+  },
+  "official_list_price_estimate_usd": {
+    "excluded_smoke": 0.01012306,
+    "immutable_parent_formal": 0.61842759,
+    "technical_recovery": 0.0056125,
+    "total": 0.63416315
+  },
+  "frozen_allowance_estimate_usd": {
+    "excluded_smoke": 0.01107986,
+    "immutable_parent_formal": 0.67688244,
+    "technical_recovery": 0.00617375,
+    "total": 0.69413605
+  },
+  "conservative_accounting_usd": {
+    "excluded_smoke": 0.013295832,
+    "immutable_parent_formal": 0.812258928,
+    "technical_recovery": 0.0074085,
+    "total": 0.83296326
+  },
+  "per_model_formal_sensitivity_cost_range_usd": {
+    "gpt-5.4": [
+      0.163665,
+      0.1800315
+    ],
+    "claude-sonnet-5": [
+      0.426496,
+      0.4691456
+    ],
+    "nemotron-3-super-120b": [
+      0.0109774,
+      0.0109774
+    ],
+    "llama-4-maverick": [
+      0.02290169,
+      0.02290169
+    ]
+  },
+  "notes": [
+    "The four-model formal sensitivity cost replaces six zero-usage parent timeout rows with the six separately frozen recovery rows.",
+    "The total cost includes excluded smoke calls and all six recovery calls.",
+    "The lower estimate uses current public list prices and AWS guidance that global cross-region routing has no surcharge.",
+    "The upper estimate preserves the frozen pre-call 10 percent allowance for GPT-5.4 and Claude Sonnet 5.",
+    "Claude Sonnet 5 pricing has conflicting stale documentation; Anthropic's August 10 changelog says the 2 USD input and 10 USD output per million token introductory rates became permanent.",
+    "The AWS invoice and AWS Marketplace line items are the final source of truth."
+  ]
+}

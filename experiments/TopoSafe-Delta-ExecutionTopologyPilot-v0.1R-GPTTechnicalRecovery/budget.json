@@ -1,0 +1,10 @@
+{
+  "conservative_cost_usd": 0.0074085,
+  "episodes": 6,
+  "estimated_cost_usd": 0.00617375,
+  "hard_budget_cap_usd": 10.0,
+  "input_tokens": 1615,
+  "model_slug": "gpt-5.4",
+  "output_tokens": 105,
+  "parent_plus_recovery_conservative_cost_usd": 0.8329632600000001
+}

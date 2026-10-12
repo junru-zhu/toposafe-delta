@@ -1,0 +1,10 @@
+{
+  "episodes_expected": 128,
+  "episodes_observed": 128,
+  "errors": [],
+  "experiment_id": "TopoSafe-Delta-ExecutionTopologyPilot-v0.1",
+  "malformed": 0,
+  "passed": true,
+  "provider_errors": 0,
+  "truncated": 0
+}

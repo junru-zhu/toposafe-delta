@@ -1,0 +1,14 @@
+{
+  "candidate_tasks_sha256": "bbaad07263d17942566635a7658dd8e64aa088fead642cdca77c36f08a21d078",
+  "cases_sha256": "87404f2b5f1752e81485526037735638fdd7c273b81fa6150573ed41b75d7d9d",
+  "episodes_per_model": 720,
+  "experiment_id": "TopoSafe-Delta-FreeRunningScheduleReplication-v0.1",
+  "formal_assigned_model_calls": 20160,
+  "formal_episodes": 2880,
+  "formal_tasks": 30,
+  "human_review_required": false,
+  "human_review_used_as_evidence": false,
+  "parent_experiment_id": "TopoSafe-Delta-FreeRunningCommunication-v0.3",
+  "prompt_inventory_sha256": "cb4f18ad74ef66e686f3c59727ae57b7cdb023ad9d7bb32c875b0734a12ffcaf",
+  "status": "automatic_gate_passed"
+}

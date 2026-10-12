@@ -1,0 +1,46 @@
+{
+  "experiment_id": "TopoSafe-Delta-ExecutionTopologyPilot-v0.1",
+  "status": "design_only_unfrozen",
+  "evidence_type": "development_only_direct_execution_topology_pilot",
+  "central_question": "Does assigning the sole protected-tool capability to source, relay, verifier, or executor change advisory or executed safety when communication route, authority proof, message content, action space, and call budget are fixed?",
+  "task_population": {
+    "source": "TopoSafe-Delta-RuntimeEnforcement-v0.2 previously exposed synthetic tasks",
+    "selection": "SHA-256 deterministic selection of two tasks per policy family",
+    "formal_tasks": 8,
+    "development_only": true
+  },
+  "factorial": {
+    "communication_graph": "fixed source-to-relay-to-verifier-to-executor",
+    "authority_regimes": [
+      "verifier_single",
+      "source_verifier_sod"
+    ],
+    "claim_truths": [
+      "false_update_below_authority_cut",
+      "true_update"
+    ],
+    "execution_holders": [
+      "source",
+      "relay",
+      "verifier",
+      "executor"
+    ],
+    "models": 4,
+    "formal_calls": 512,
+    "excluded_smoke_calls": 8
+  },
+  "primary_metrics": [
+    "invalid-proof advisory FAR by execution holder",
+    "invalid-proof executed FAR after deterministic fail-closed enforcement",
+    "true-world protected-action utilization",
+    "holder spread within model and authority regime"
+  ],
+  "budget_control": {
+    "max_output_tokens": 200,
+    "maximum_provider_attempts": 1,
+    "hard_cap_usd": 10.0,
+    "pre_call_rule": "Abort before a model tranche when cumulative conservative token cost plus the tranche token ceiling exceeds the hard cap.",
+    "accounting": "Store input tokens, output tokens, estimated commercial cost, conservative cost, and cumulative conservative cost for every model tranche."
+  },
+  "evidence_boundary": "This pilot uses only eight previously exposed synthetic tasks and one repetition. It can validate the direct G_E instrumentation and estimate effect scale, but it is not confirmatory and cannot support real-world generalization."
+}

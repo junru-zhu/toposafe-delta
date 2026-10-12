@@ -1,0 +1,21 @@
+{
+  "blockers": [],
+  "checked_at": "2026-10-06T23:02:21.850450+00:00",
+  "checks": {
+    "automatic_gate": true,
+    "case_contract": true,
+    "design_unfrozen": true,
+    "human_review_absent": true,
+    "parent_all_models_valid": true,
+    "parent_source_hashes": true,
+    "prompt_inventory_identical": true,
+    "schedule_seed_changed": true,
+    "zero_provider_calls": true
+  },
+  "excluded_smoke_model_calls": 56,
+  "experiment_id": "TopoSafe-Delta-FreeRunningScheduleReplication-v0.1",
+  "formal_assigned_model_calls": 20160,
+  "formal_episodes": 2880,
+  "parent_experiment_id": "TopoSafe-Delta-FreeRunningCommunication-v0.3",
+  "status": "ready_to_freeze"
+}

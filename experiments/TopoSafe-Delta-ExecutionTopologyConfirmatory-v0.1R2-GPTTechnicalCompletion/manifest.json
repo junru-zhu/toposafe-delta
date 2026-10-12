@@ -1,0 +1,42 @@
+{
+  "formal_calls": 1440,
+  "frozen_at": "2026-10-12T21:26:43.805018+00:00",
+  "hard_budget_cap_including_parent_and_recoveries_usd": 12.0,
+  "max_output_tokens": 100,
+  "maximum_provider_attempts": 1,
+  "r2_experiment_id": "TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R2-GPTTechnicalCompletion",
+  "read_timeout_seconds": 600,
+  "schedule_seed": 2026101242,
+  "smoke_episode_ids": [
+    "tsc-transfer-merchant-payout-unfreeze::two_of_three_quorum__false_update__proposal_verifier",
+    "tsc-transfer-merchant-payout-unfreeze::two_of_three_quorum__true_update__proposal_verifier"
+  ],
+  "source_hashes": {
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/aborted_provider_outage/gpt-5.4/raw/proposals.jsonl": "54468c3a3518b315a0eb2ecb821ddf581f1f271e561a833652f7d486aefc0d53",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/candidate_tasks.json": "71054ad7a9f4ec070bd418b2c3eaca663847e05f25110a81f6163efcfec8958f",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/manifest.json": "e47f1f0b8be7d32f54b4146ca99cc73f440ae00b9e8a4fd227a0ca1db9d5a27e",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/models/claude-sonnet-5/raw/proposals.jsonl": "cccc3c1e55591ae9a36d7813048a95b4f571c73401f0280084a2bd5d19fc659e",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/models/claude-sonnet-5/validation.json": "cbedc8c6f1af3b11217e0fbc69daebe3f58114d1c78e604dc462104fbb563e16",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/models/llama-4-maverick/raw/proposals.jsonl": "ee31b8b961c02316b4db61af30adb53019f056a481d46d05ff797012d43bf732",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/models/llama-4-maverick/validation.json": "2550d184bfcc7c94d10b64544144ae7e725b4aefffc7362134c5781afc25a78f",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/models/nemotron-3-super-120b/raw/proposals.jsonl": "ca763fd99394ae41c10f3ae79574253e3e08c943bfe0f40337929455008187cd",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/models/nemotron-3-super-120b/validation.json": "0a51252c83bbab22446668de3ec46ec64b2c311b7895cc7ba37b9d010a4715ac",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/proposal_cases.json": "2fcd55eaa7efd941b14d434cea24f41ef5fefff088804c5a784a7fd8ed1f419e",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R-TechnicalCompletion/manifest.json": "37ed573cfc0033c34f1d168543b70af3550539bd8a9ce1416b06bc5a4e5ddf6d",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R-TechnicalCompletion/models/nemotron-3-super-120b/raw/proposals.jsonl": "9582bd089e02db540427bf06e838dada984dbcd63967c40c4ad39cdbdd7343c5",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R-TechnicalCompletion/models/nemotron-3-super-120b/validation.json": "3a8eecd7494a99963488203e1267f20143217e86555acc6290f58b4124698247",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R-TechnicalCompletion/smoke/gpt-5.4/raw/proposals.jsonl": "dc7c586c02c29bbf2702445327ef33700dfef3aeccc580f4c209b75de6bbd542",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R-TechnicalCompletion/smoke/gpt-5.4/validation.json": "5822a84b62b7bb7c5fd9e407c1f4a371717c614b6a10bbdacfcec14a46e5b9e1",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R2-GPTTechnicalCompletion/design_spec.json": "72ad45438e835d641dfcb30d80634226906264a72e9d0af845541403c9808f95",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R2-GPTTechnicalCompletion/package_summary.json": "1fe0a79de9ac5d976dce35aa0ae0cabb56f2c811e5d651df8ae533fa4c042f42",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R2-GPTTechnicalCompletion/protocol.md": "a562843856fa844b5f4975cedb9b75c857b26c2ac8593642f21693efebdbb913",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R2-GPTTechnicalCompletion/recovery_selection.json": "af4ea94a70dd599d2fcc7f28affe51290d167050d44aba4f885da03065803eb1",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R2-GPTTechnicalCompletion/selection_validation.json": "f3179873d88b394053d7a806968f3cc5228c7066326119de7808ce646ccee3a5",
+    "scripts/run_execution_topology_confirmatory_gpt_r2.py": "32e706e7736780ee43fd3ce44bb749de934948610888414a3b99fdf9aa428494",
+    "scripts/run_execution_topology_confirmatory_recovery.py": "604b4c5fedab7ab86326ba7e18872edfb440135d6a0cf384c00f24190f19eec0",
+    "src/swarmsafe_delta/execution_topology_confirmatory.py": "45e579a808cb8a58d090821331193545d9cc5eacc2664863a6982d483ed777dd",
+    "src/swarmsafe_delta/execution_topology_pilot.py": "e5230f745616e815fa24c0717a439f143022f221ea920af2a91c8976957f9365"
+  },
+  "status": "frozen_pre_run",
+  "workers": 10
+}

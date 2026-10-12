@@ -1,0 +1,30 @@
+{
+  "excluded_smoke_calls": 8,
+  "formal_recovery_calls": 697,
+  "human_review_required": false,
+  "human_review_used_as_evidence": false,
+  "model_recovery_calls": {
+    "claude-sonnet-5": 0,
+    "gpt-5.4": 60,
+    "llama-4-maverick": 323,
+    "nemotron-3-super-120b": 314
+  },
+  "proof_bearing_source_rows": 6480,
+  "runtime_gate_blocked_rows": 697,
+  "smoke_calls_by_model": {
+    "gpt-5.4": 2,
+    "llama-4-maverick": 3,
+    "nemotron-3-super-120b": 3
+  },
+  "source_experiment": "TopoSafe-Delta-AuthorityComposition-v0.2",
+  "source_hashes": {
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/study_a/claude-sonnet-5/raw/episodes.jsonl": "26c80fd160d5dbff1a59a28b915d536ba321cfc8903a1936f1cfb9ddb26a8a72",
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/study_a/gpt-5.4/raw/episodes.jsonl": "5f27662ea52da7bf50ca099f4447b491f58e3a38811d5a0b38dcfda48a6702e7",
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/study_a/llama-4-maverick/raw/episodes.jsonl": "80113347234a8ecae9516309469eef51269cc0635618e311f1269fae8466564e",
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/study_a/nemotron-3-super-120b/raw/episodes.jsonl": "610e4f4e096499435ec1a75eb222d90b6c48639e81709ab08619ad25196af87c",
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/threshold/claude-sonnet-5/raw/episodes.jsonl": "30efdd10f280b98bc63116bb8a0788a1ba99280613c4b17e615ab162b96c6ec2",
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/threshold/gpt-5.4/raw/episodes.jsonl": "f5f27790f90b962c9b72e8ee2dd9d0aba5b71020f83f763cc413ba62def612b1",
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/threshold/llama-4-maverick/raw/episodes.jsonl": "b1b3c182ce79aef8c81e71db15b7468a6c492d070216f86328981396ae6a4959",
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/threshold/nemotron-3-super-120b/raw/episodes.jsonl": "93be585311e86c0c77b1c191e3fd9a531a9499bbd086fe97d44cff8b52304d41"
+  }
+}

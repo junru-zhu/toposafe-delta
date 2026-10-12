@@ -1,0 +1,26 @@
+{
+  "additional_model_request_fields": {
+    "thinking": {
+      "type": "disabled"
+    }
+  },
+  "connect_timeout_seconds": 10,
+  "created_at": "2026-10-06T22:48:14.950616+00:00",
+  "experiment_id": "TopoSafe-Delta-AuthorityMechanismAblations-v0.1",
+  "force_action_tool": true,
+  "max_attempts": 3,
+  "max_output_tokens": 200,
+  "maximum_provider_attempts": 3,
+  "model_id": "global.anthropic.claude-sonnet-5",
+  "model_slug": "claude-sonnet-5",
+  "planned_calls": 300,
+  "read_timeout_seconds": 180,
+  "region": "us-east-1",
+  "root_manifest_sha256": "05851e12a05b041a1fcb199dee3f9cc7872d30b7b560115c1bd199c05b153903",
+  "runner_sha256": "7da004132f47142a76ea92e7d370e8de00462b49c9e0f3baa4077b457cc36873",
+  "schedule_seed": 2026100661,
+  "stage": "formal",
+  "temperature": null,
+  "top_p": null,
+  "workers": 6
+}

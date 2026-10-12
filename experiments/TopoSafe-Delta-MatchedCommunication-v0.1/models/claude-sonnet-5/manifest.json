@@ -1,0 +1,25 @@
+{
+  "additional_model_request_fields": {
+    "thinking": {
+      "type": "disabled"
+    }
+  },
+  "connect_timeout_seconds": 10,
+  "created_at": "2026-10-06T20:47:15.916465+00:00",
+  "experiment_id": "TopoSafe-Delta-MatchedCommunication-v0.1",
+  "force_action_tool": true,
+  "max_output_tokens": 200,
+  "maximum_provider_attempts": 3,
+  "model_id": "global.anthropic.claude-sonnet-5",
+  "model_slug": "claude-sonnet-5",
+  "planned_calls": 3120,
+  "read_timeout_seconds": 180,
+  "region": "us-east-1",
+  "root_manifest_sha256": "9717253f522152fdaabdb065b711ab8f0f5c48d111a316d4c9caf9bf15f00fd9",
+  "runner_sha256": "318f1a10b9a68af6979e092a95cab313673a0a9f3a4af0801f0d4777cf4fc825",
+  "schedule_seed": 2026100631,
+  "stage": "formal",
+  "temperature": null,
+  "top_p": null,
+  "workers": 6
+}

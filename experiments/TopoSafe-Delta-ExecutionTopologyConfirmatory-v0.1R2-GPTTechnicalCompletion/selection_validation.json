@@ -1,0 +1,8 @@
+{
+  "errors": [],
+  "passed": true,
+  "r1_failed_smoke_provider_errors": 2,
+  "r1_failed_smoke_rows": 2,
+  "selected_formal_calls": 1440,
+  "status": "automatic_r2_gate_passed"
+}

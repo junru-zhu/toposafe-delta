@@ -1,0 +1,94 @@
+{
+  "automatic_gate_passed": true,
+  "candidate_tasks": 30,
+  "case_contracts": {
+    "case_count": 720,
+    "errors": [],
+    "forward_prompt_chars": 436,
+    "graph_contract": {
+      "errors": [],
+      "passed": true,
+      "topologies": {
+        "topo_A": {
+          "active_route_hops": 1,
+          "degree_centralization": 0.9,
+          "edge_disjoint_routes": 2,
+          "edges": 6,
+          "nodes": 6,
+          "simple_routes": 2,
+          "source_executor_distance": 1
+        },
+        "topo_B": {
+          "active_route_hops": 3,
+          "degree_centralization": 0.0,
+          "edge_disjoint_routes": 2,
+          "edges": 6,
+          "nodes": 6,
+          "simple_routes": 2,
+          "source_executor_distance": 3
+        },
+        "topo_C": {
+          "active_route_hops": 4,
+          "degree_centralization": 0.3,
+          "edge_disjoint_routes": 1,
+          "edges": 6,
+          "nodes": 6,
+          "simple_routes": 2,
+          "source_executor_distance": 4
+        },
+        "topo_D": {
+          "active_route_hops": 5,
+          "degree_centralization": 0.3,
+          "edge_disjoint_routes": 1,
+          "edges": 6,
+          "nodes": 6,
+          "simple_routes": 1,
+          "source_executor_distance": 5
+        }
+      }
+    },
+    "passed": true,
+    "role_rotation_counts": {
+      "topo_A::0": 5,
+      "topo_A::1": 5,
+      "topo_A::2": 5,
+      "topo_A::3": 5,
+      "topo_A::4": 5,
+      "topo_A::5": 5,
+      "topo_B::0": 5,
+      "topo_B::1": 5,
+      "topo_B::2": 5,
+      "topo_B::3": 5,
+      "topo_B::4": 5,
+      "topo_B::5": 5,
+      "topo_C::0": 5,
+      "topo_C::1": 5,
+      "topo_C::2": 5,
+      "topo_C::3": 5,
+      "topo_C::4": 5,
+      "topo_C::5": 5,
+      "topo_D::0": 5,
+      "topo_D::1": 5,
+      "topo_D::2": 5,
+      "topo_D::3": 5,
+      "topo_D::4": 5,
+      "topo_D::5": 5
+    },
+    "selected_tasks": 30
+  },
+  "changed_factor": "schedule_seed_and_resulting_execution_order",
+  "episodes_per_model": 720,
+  "errors": [],
+  "experiment_id": "TopoSafe-Delta-FreeRunningScheduleReplication-v0.1",
+  "formal_assigned_model_calls": 20160,
+  "formal_episodes": 2880,
+  "human_review_required": false,
+  "human_review_used_as_evidence": false,
+  "manual_case_selection": false,
+  "parent_experiment_id": "TopoSafe-Delta-FreeRunningCommunication-v0.3",
+  "parent_prompt_inventory_sha256": "cb4f18ad74ef66e686f3c59727ae57b7cdb023ad9d7bb32c875b0734a12ffcaf",
+  "parent_schedule_seed": 2026100641,
+  "prompt_inventory_sha256": "cb4f18ad74ef66e686f3c59727ae57b7cdb023ad9d7bb32c875b0734a12ffcaf",
+  "replication_schedule_seed": 2026100671,
+  "status": "automatic_gate_passed"
+}

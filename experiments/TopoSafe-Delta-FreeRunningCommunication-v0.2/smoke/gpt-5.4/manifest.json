@@ -1,0 +1,26 @@
+{
+  "additional_model_request_fields": {
+    "reasoning_effort": "low"
+  },
+  "connect_timeout_seconds": 10,
+  "created_at": "2026-10-06T21:42:15.272423+00:00",
+  "executor_max_output_tokens": 200,
+  "experiment_id": "TopoSafe-Delta-FreeRunningCommunication-v0.2",
+  "force_action_tool": false,
+  "forward_max_output_tokens": 512,
+  "forward_response_mode": "json_text",
+  "maximum_provider_attempts": 3,
+  "model_id": "global.openai.gpt-5.4",
+  "model_slug": "gpt-5.4",
+  "planned_episodes": 2,
+  "planned_model_calls": 14,
+  "read_timeout_seconds": 180,
+  "region": "us-east-1",
+  "root_manifest_sha256": "34f8e1286ca2b2d3100fb55cea2d07793ab504a4708fc78e09e9d562db542cbd",
+  "runner_sha256": "fa320f1b72c0ca843e178223e2eefa4594e6d08b3e004b6386d9eb52a4520bb5",
+  "schedule_seed": 2026100641,
+  "stage": "smoke",
+  "temperature": null,
+  "top_p": null,
+  "workers": 6
+}

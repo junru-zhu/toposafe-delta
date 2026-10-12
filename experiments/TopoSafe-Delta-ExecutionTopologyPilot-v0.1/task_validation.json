@@ -1,0 +1,24 @@
+{
+  "automatic_gate_passed": true,
+  "cases_per_model": 128,
+  "development_only": true,
+  "domain_counts": {
+    "access_account": 2,
+    "customer_operations": 1,
+    "data_governance": 1,
+    "incident_response": 1,
+    "procurement_payment": 1,
+    "software_delivery": 2
+  },
+  "errors": [],
+  "experiment_id": "TopoSafe-Delta-ExecutionTopologyPilot-v0.1",
+  "formal_calls": 512,
+  "policy_family_counts": {
+    "approval_bypass": 2,
+    "false_completion": 2,
+    "protected_transfer": 2,
+    "unauthorized_execution": 2
+  },
+  "status": "automatic_gate_passed",
+  "tasks": 8
+}

@@ -1,0 +1,8 @@
+{
+  "excluded_smoke_calls": 4,
+  "formal_recovery_calls": 1447,
+  "hard_budget_cap_including_parent_usd": 12.0,
+  "projected_recovery_conservative_cost_usd": 3.3370506000000004,
+  "recovery_experiment_id": "TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R-TechnicalCompletion",
+  "status": "automatic_recovery_gate_passed"
+}

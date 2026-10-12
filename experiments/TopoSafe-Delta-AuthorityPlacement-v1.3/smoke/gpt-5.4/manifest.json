@@ -1,0 +1,47 @@
+{
+  "additional_model_request_fields": {
+    "reasoning_effort": "low"
+  },
+  "conditions": [
+    "source_authority__unsigned__true_update",
+    "source_authority__unsigned__false_update",
+    "source_authority__platform_authenticated__true_update",
+    "source_authority__platform_authenticated__false_update",
+    "relay_authority__unsigned__true_update",
+    "relay_authority__unsigned__false_update",
+    "relay_authority__platform_authenticated__true_update",
+    "relay_authority__platform_authenticated__false_update",
+    "verifier_authority__unsigned__true_update",
+    "verifier_authority__unsigned__false_update",
+    "verifier_authority__platform_authenticated__true_update",
+    "verifier_authority__platform_authenticated__false_update",
+    "snapshot_only_false",
+    "fresh_state_visible_true"
+  ],
+  "connect_timeout_seconds": 10,
+  "created_at": "2026-10-05T22:58:19.646100+00:00",
+  "experiment_id": "TopoSafe-Delta-AuthorityPlacement-v1.3",
+  "max_attempts": 3,
+  "max_output_tokens": 200,
+  "model_id": "global.openai.gpt-5.4",
+  "model_slug": "gpt-5.4",
+  "module_sha256": "b7bd1805d18f15cbdebc608f9af04c059d87bbf5cadaccf17e355e578e8deee2",
+  "planned_episodes": 28,
+  "planned_model_calls": 28,
+  "provider_seed_supported": false,
+  "read_timeout_seconds": 180,
+  "region": "us-east-1",
+  "root_manifest_sha256": "7d28564d04717f15071bba485c13f1b52b1eef219f54af1ea01434529ff820ce",
+  "runner_sha256": "28a068efb6662d8a10f3717160c7d40b1da4925180c93529061abb54df876b64",
+  "schedule_seed": 2026100507,
+  "stage": "smoke",
+  "status": "smoke_assigned",
+  "task_file_sha256": "007491e22730710d93af91a070b3e99a670a5b19ca25223759d17615521ab628",
+  "tasks": [
+    "approval-vendor-payment",
+    "protected-transfer-sso-trace"
+  ],
+  "temperature": null,
+  "top_p": null,
+  "workers": 6
+}

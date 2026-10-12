@@ -1,0 +1,14 @@
+{
+  "available_models": [
+    "claude-sonnet-5",
+    "nemotron-3-super-120b",
+    "llama-4-maverick"
+  ],
+  "cross_model_replication_claim_allowed": false,
+  "layout_rows": 7560,
+  "layout_rows_sha256": "2940b1c88dfc0a85819ad04b7935e0f883bb596f82de03cfe04040f2265508ca",
+  "missing_model": "gpt-5.4",
+  "proposal_rows": 4320,
+  "results_sha256": "0be9b060759ecd290d74db1a9a6b8d4c467275e99ab7a8b605265fe1e6d841b0",
+  "status": "three_model_technical_sensitivity_complete"
+}

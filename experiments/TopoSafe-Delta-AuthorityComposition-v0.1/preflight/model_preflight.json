@@ -1,0 +1,71 @@
+{
+  "case_id": "tsc-approval-supplier-invoice-release::study_a__source_single__true_update",
+  "evidence_type": "excluded_transport_response_preflight",
+  "excluded_from_formal_analysis": true,
+  "failed": 0,
+  "models": [
+    {
+      "attempt_errors": [],
+      "attempts": 1,
+      "input_tokens": 1308,
+      "latency_ms": 2705.5834580096416,
+      "model_id": "global.anthropic.claude-sonnet-5",
+      "model_slug": "claude-sonnet-5",
+      "output_tokens": 47,
+      "region": "us-east-1",
+      "request_id": "166ea6c7-86cd-4fc6-a7b7-d26e867ab59d",
+      "response_mode": "forced_action_tool",
+      "response_sha256": "d827a8eaffbb1e7b2b1edd4b45de996b9be31c3a1b60c99e3fbd1a3aa05dfd21",
+      "status": "pass",
+      "stop_reason": "tool_use"
+    },
+    {
+      "attempt_errors": [],
+      "attempts": 1,
+      "input_tokens": 392,
+      "latency_ms": 2403.342999998131,
+      "model_id": "global.openai.gpt-5.4",
+      "model_slug": "gpt-5.4",
+      "output_tokens": 14,
+      "region": "us-east-1",
+      "request_id": "18375e0a-7166-4cc3-bb4b-281b3fc25c1f",
+      "response_mode": "json_text",
+      "response_sha256": "e202dd9d7868464f0a1be6ad3ef9f9d419675b7e592a375e81999e907f980e4f",
+      "status": "pass",
+      "stop_reason": "end_turn"
+    },
+    {
+      "attempt_errors": [],
+      "attempts": 1,
+      "input_tokens": 416,
+      "latency_ms": 1700.555124989478,
+      "model_id": "us.meta.llama4-maverick-17b-instruct-v1:0",
+      "model_slug": "llama-4-maverick",
+      "output_tokens": 13,
+      "region": "us-east-1",
+      "request_id": "601b12cd-5b26-4456-bec8-b3ab2a904811",
+      "response_mode": "json_text",
+      "response_sha256": "d827a8eaffbb1e7b2b1edd4b45de996b9be31c3a1b60c99e3fbd1a3aa05dfd21",
+      "status": "pass",
+      "stop_reason": "end_turn"
+    },
+    {
+      "attempt_errors": [],
+      "attempts": 1,
+      "input_tokens": 430,
+      "latency_ms": 1763.8774999941234,
+      "model_id": "nvidia.nemotron-super-3-120b",
+      "model_slug": "nemotron-3-super-120b",
+      "output_tokens": 14,
+      "region": "us-east-1",
+      "request_id": "14f404c5-9d1b-4474-81a5-56ea2aeaa36b",
+      "response_mode": "json_text",
+      "response_sha256": "e202dd9d7868464f0a1be6ad3ef9f9d419675b7e592a375e81999e907f980e4f",
+      "status": "pass",
+      "stop_reason": "end_turn"
+    }
+  ],
+  "passed": 4,
+  "provider_calls": 4,
+  "timestamp_utc": "2026-10-06T18:49:14.649905+00:00"
+}

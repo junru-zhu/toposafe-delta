@@ -1,0 +1,13 @@
+{
+  "calls": 7,
+  "combined_cumulative_conservative_cost_usd": 6.908260032,
+  "combined_hard_budget_cap_usd": 12.0,
+  "conservative_cost_usd": 0.0007514399999999999,
+  "estimated_cost_usd": 0.0006262,
+  "input_tokens": 3724,
+  "model_slug": "nemotron-3-super-120b",
+  "output_tokens": 104,
+  "provider_attempts": 7,
+  "recovery_experiment_id": "TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R-TechnicalCompletion",
+  "stage": "formal"
+}

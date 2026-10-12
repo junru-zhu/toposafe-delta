@@ -1,0 +1,11 @@
+{
+  "candidate_tasks_sha256": "f07c3af17214eab0f9d2bc9bc87d533e42f9ee50de3337093a3cf859ba13067c",
+  "cases_per_model": 3120,
+  "cases_sha256": "0f43efcbc8837200aa090244dc965748c2f247d18fdb263ff584e5f82a0b84bd",
+  "experiment_id": "TopoSafe-Delta-MatchedCommunication-v0.1",
+  "formal_calls": 12480,
+  "formal_tasks": 120,
+  "human_review_required": false,
+  "human_review_used_as_evidence": false,
+  "status": "automatic_gate_passed"
+}

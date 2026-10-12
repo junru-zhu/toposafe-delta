@@ -1,0 +1,16 @@
+{
+  "budget_mismatches": [],
+  "duplicates": [],
+  "experiment_id": "TopoSafe-Delta-RuntimeEnforcement-v0.2",
+  "hash_mismatches": [],
+  "malformed_or_truncated": 0,
+  "malformed_or_truncated_rate": 0.0,
+  "missing": [],
+  "passed": true,
+  "provider_errors": 0,
+  "rows_expected": 2,
+  "rows_observed": 2,
+  "status_errors": [],
+  "structural_errors": [],
+  "unexpected": []
+}

@@ -1,0 +1,13 @@
+{
+  "candidate_tasks_sha256": "7da096e92fe7cab3b12261238536eff404d2abbabb67d3a4a1637152b07ee7e7",
+  "catalog_rows": 12,
+  "experiment_id": "TopoSafe-Delta-RuntimeEnforcement-v0.2",
+  "formal_initial_calls": 2688,
+  "fresh_tasks": 48,
+  "human_review_required": false,
+  "human_review_used_as_evidence": false,
+  "initial_cases_per_model": 672,
+  "initial_cases_sha256": "389936468d9bcf024a0090b77cdb0d1b66b44f76e7437b9f04c51e139272c71a",
+  "maximum_formal_recovery_calls": 960,
+  "status": "automatic_gate_passed"
+}

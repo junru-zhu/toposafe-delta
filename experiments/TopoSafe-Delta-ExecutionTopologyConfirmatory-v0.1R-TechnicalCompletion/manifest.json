@@ -1,0 +1,59 @@
+{
+  "active_models": [
+    "gpt-5.4",
+    "nemotron-3-super-120b"
+  ],
+  "formal_recovery_calls": {
+    "gpt-5.4": 1440,
+    "nemotron-3-super-120b": 7
+  },
+  "frozen_at": "2026-10-12T21:20:25.959980+00:00",
+  "hard_budget_cap_including_parent_usd": 12.0,
+  "max_output_tokens": 100,
+  "maximum_provider_attempts": 1,
+  "parent_experiment_id": "TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1",
+  "per_call_token_allowance": {
+    "gpt-5.4": {
+      "input_tokens": 570,
+      "output_tokens": 22
+    },
+    "nemotron-3-super-120b": {
+      "input_tokens": 650,
+      "output_tokens": 60
+    }
+  },
+  "recovery_experiment_id": "TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R-TechnicalCompletion",
+  "schedule_seed": 2026101242,
+  "smoke_episode_ids": {
+    "gpt-5.4": [
+      "tsc-transfer-merchant-payout-unfreeze::two_of_three_quorum__false_update__proposal_verifier",
+      "tsc-transfer-merchant-payout-unfreeze::two_of_three_quorum__true_update__proposal_verifier"
+    ],
+    "nemotron-3-super-120b": [
+      "tsc-transfer-milestone-payment-release::verifier_single__false_update__proposal_relay",
+      "tsc-transfer-oauth-client-secret-issuance::source_verifier_sod__true_update__proposal_relay"
+    ]
+  },
+  "source_hashes": {
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/aborted_provider_outage/gpt-5.4/raw/proposals.jsonl": "54468c3a3518b315a0eb2ecb821ddf581f1f271e561a833652f7d486aefc0d53",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/candidate_tasks.json": "71054ad7a9f4ec070bd418b2c3eaca663847e05f25110a81f6163efcfec8958f",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/manifest.json": "e47f1f0b8be7d32f54b4146ca99cc73f440ae00b9e8a4fd227a0ca1db9d5a27e",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/models/claude-sonnet-5/raw/proposals.jsonl": "cccc3c1e55591ae9a36d7813048a95b4f571c73401f0280084a2bd5d19fc659e",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/models/claude-sonnet-5/validation.json": "cbedc8c6f1af3b11217e0fbc69daebe3f58114d1c78e604dc462104fbb563e16",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/models/llama-4-maverick/raw/proposals.jsonl": "ee31b8b961c02316b4db61af30adb53019f056a481d46d05ff797012d43bf732",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/models/llama-4-maverick/validation.json": "2550d184bfcc7c94d10b64544144ae7e725b4aefffc7362134c5781afc25a78f",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/models/nemotron-3-super-120b/raw/proposals.jsonl": "ca763fd99394ae41c10f3ae79574253e3e08c943bfe0f40337929455008187cd",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/models/nemotron-3-super-120b/validation.json": "0a51252c83bbab22446668de3ec46ec64b2c311b7895cc7ba37b9d010a4715ac",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1/proposal_cases.json": "2fcd55eaa7efd941b14d434cea24f41ef5fefff088804c5a784a7fd8ed1f419e",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R-TechnicalCompletion/design_spec.json": "3135ce82159dc40ca5e0974be626c9ba0343037d5039cac06f5a7c875086e1a9",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R-TechnicalCompletion/package_summary.json": "53df4539faea74557273c220b56dbea9aa223bc489f6f52d5cdb64cf011f3c87",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R-TechnicalCompletion/protocol.md": "06a7d1a472f449296a6ebcd64ff7c302eda5fc8aaf1f1e0ae57efa74dbe80ddf",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R-TechnicalCompletion/recovery_selection.json": "9455041883cf5d5baef6f89e3ccab206231b18ddc1eab16e5599428acc0df893",
+    "experiments/TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R-TechnicalCompletion/selection_validation.json": "e750fb406d3b9754f40893508bcc3bb5a93eaea5e503c8f5209f9c4a0f2acae4",
+    "scripts/run_execution_topology_confirmatory_recovery.py": "604b4c5fedab7ab86326ba7e18872edfb440135d6a0cf384c00f24190f19eec0",
+    "src/swarmsafe_delta/execution_topology_confirmatory.py": "45e579a808cb8a58d090821331193545d9cc5eacc2664863a6982d483ed777dd",
+    "src/swarmsafe_delta/execution_topology_pilot.py": "e5230f745616e815fa24c0717a439f143022f221ea920af2a91c8976957f9365"
+  },
+  "status": "frozen_pre_run",
+  "workers": 6
+}

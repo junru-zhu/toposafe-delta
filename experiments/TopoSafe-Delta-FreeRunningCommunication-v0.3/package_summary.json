@@ -1,0 +1,12 @@
+{
+  "candidate_tasks_sha256": "bbaad07263d17942566635a7658dd8e64aa088fead642cdca77c36f08a21d078",
+  "cases_sha256": "50f39c748590889d36c51a6646f1fe5c238d95c8bc7604154311ed512faef846",
+  "episodes_per_model": 720,
+  "experiment_id": "TopoSafe-Delta-FreeRunningCommunication-v0.3",
+  "formal_assigned_model_calls": 20160,
+  "formal_episodes": 2880,
+  "formal_tasks": 30,
+  "human_review_required": false,
+  "human_review_used_as_evidence": false,
+  "status": "automatic_gate_passed"
+}

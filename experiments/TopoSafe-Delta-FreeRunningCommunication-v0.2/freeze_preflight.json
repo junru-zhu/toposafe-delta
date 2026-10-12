@@ -1,0 +1,14 @@
+{
+  "automatic_gate_passed": true,
+  "blockers": [],
+  "case_contract_passed": true,
+  "checked_at": "2026-10-06T21:42:06.178179+00:00",
+  "episodes_per_model": 720,
+  "excluded_smoke_model_calls": 56,
+  "experiment_id": "TopoSafe-Delta-FreeRunningCommunication-v0.2",
+  "formal_assigned_model_calls": 20160,
+  "formal_episodes": 2880,
+  "formal_tasks": 30,
+  "human_review_required": false,
+  "status": "ready_to_freeze"
+}

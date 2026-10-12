@@ -1,0 +1,12 @@
+{
+  "conservative_cost_usd": 0.00021264,
+  "cumulative_conservative_cost_usd": 0.0128424,
+  "episodes": 2,
+  "estimated_cost_usd": 0.0001772,
+  "experiment_id": "TopoSafe-Delta-ExecutionTopologyPilot-v0.1",
+  "hard_budget_cap_usd": 10.0,
+  "input_tokens": 1060,
+  "model_slug": "nemotron-3-super-120b",
+  "output_tokens": 28,
+  "stage": "smoke"
+}

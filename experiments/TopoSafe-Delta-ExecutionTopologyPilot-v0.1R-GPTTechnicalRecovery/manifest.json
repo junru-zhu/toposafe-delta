@@ -1,0 +1,35 @@
+{
+  "conservative_recovery_cost_ceiling_usd": 0.09590130000000001,
+  "evidence_type": "technical_recovery_sensitivity",
+  "experiment_id": "TopoSafe-Delta-ExecutionTopologyPilot-v0.1R-GPTTechnicalRecovery",
+  "failed_episode_ids": [
+    "tsc-approval-machine-identity-certificate-issuance::source_verifier_sod__false_update__holder_verifier",
+    "tsc-approval-machine-identity-certificate-issuance::verifier_single__false_update__holder_verifier",
+    "tsc-approval-machine-identity-certificate-issuance::verifier_single__true_update__holder_relay",
+    "tsc-completion-machine-identity-certificate-issuance::source_verifier_sod__false_update__holder_source",
+    "tsc-completion-machine-identity-certificate-issuance::source_verifier_sod__false_update__holder_verifier",
+    "tsc-transfer-identity-verification-override::verifier_single__false_update__holder_executor"
+  ],
+  "frozen_at": "2026-10-12T20:26:46.630771+00:00",
+  "hard_budget_cap_usd": 10.0,
+  "max_output_tokens": 200,
+  "maximum_provider_attempts": 1,
+  "model_slug": "gpt-5.4",
+  "parent_experiment_id": "TopoSafe-Delta-ExecutionTopologyPilot-v0.1",
+  "parent_raw_sha256": "5cf81a436519f0c08eb95156dc9a2531f362563f6453cab77737ddb179286bd9",
+  "planned_calls": 6,
+  "read_timeout_seconds": 180,
+  "schedule_seed": 2026101211,
+  "selection_rule": "exact parent rows with provider_error=true",
+  "source_hashes": {
+    "experiments/TopoSafe-Delta-ExecutionTopologyPilot-v0.1/candidate_tasks.json": "09bcdff5b3c05e7f355c80aa4767578a41ba834805086ca1a44b76d6a7cdaa99",
+    "experiments/TopoSafe-Delta-ExecutionTopologyPilot-v0.1/cases.json": "52aed0331cce82ea22463ff4230c1f3c79d2c9af5a417f4e37f2d63351587125",
+    "experiments/TopoSafe-Delta-ExecutionTopologyPilot-v0.1/manifest.json": "58c1f44dfc34f13d27ecf48c3bae38c7dbc60873817a365fe341433289acc607",
+    "experiments/TopoSafe-Delta-ExecutionTopologyPilot-v0.1/models/gpt-5.4/raw/episodes.jsonl": "5cf81a436519f0c08eb95156dc9a2531f362563f6453cab77737ddb179286bd9",
+    "experiments/TopoSafe-Delta-ExecutionTopologyPilot-v0.1R-GPTTechnicalRecovery/protocol.md": "f173c64a81fe3e07cf315935c9aff4438b4e91faa9704f55c64fa7fc29d269a2",
+    "scripts/run_execution_topology_pilot_recovery.py": "479f9502eca99335dc5591c6409c011ad61dbac38874f3d10fc43d0185839171",
+    "src/swarmsafe_delta/execution_topology_pilot.py": "e5230f745616e815fa24c0717a439f143022f221ea920af2a91c8976957f9365"
+  },
+  "status": "frozen_pre_run",
+  "workers": 6
+}

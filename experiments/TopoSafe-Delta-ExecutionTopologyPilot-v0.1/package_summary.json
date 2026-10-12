@@ -1,0 +1,41 @@
+{
+  "candidate_tasks_sha256": "8652fea98233841a32a02e2c0077776da6557370451cd5b8fd54ea7b1f609b48",
+  "cases_sha256": "0548605922499d6f24cf1454acc5bc7a862db25ee37d6223f169100aad7e9235",
+  "conservative_formal_cost_ceiling_usd": 3.8966887679999997,
+  "development_only": true,
+  "experiment_id": "TopoSafe-Delta-ExecutionTopologyPilot-v0.1",
+  "formal_calls": 512,
+  "formal_cases_per_model": 128,
+  "formal_tasks": 8,
+  "hard_budget_cap_usd": 10.0,
+  "max_output_tokens": 200,
+  "maximum_provider_attempts": 1,
+  "model_cost_ceilings": {
+    "claude-sonnet-5": {
+      "conservative_cost_ceiling_usd": 1.57474944,
+      "input_token_ceiling": 468496,
+      "model_slug": "claude-sonnet-5",
+      "output_token_ceiling": 25600
+    },
+    "gpt-5.4": {
+      "conservative_cost_ceiling_usd": 2.0529167999999998,
+      "input_token_ceiling": 468496,
+      "model_slug": "gpt-5.4",
+      "output_token_ceiling": 25600
+    },
+    "llama-4-maverick": {
+      "conservative_cost_ceiling_usd": 0.164725248,
+      "input_token_ceiling": 468496,
+      "model_slug": "llama-4-maverick",
+      "output_token_ceiling": 25600
+    },
+    "nemotron-3-super-120b": {
+      "conservative_cost_ceiling_usd": 0.10429727999999999,
+      "input_token_ceiling": 468496,
+      "model_slug": "nemotron-3-super-120b",
+      "output_token_ceiling": 25600
+    }
+  },
+  "smoke_calls": 8,
+  "status": "automatic_gate_passed"
+}

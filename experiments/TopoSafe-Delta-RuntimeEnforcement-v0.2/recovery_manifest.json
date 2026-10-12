@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-10-06T19:51:50.047074+00:00",
+  "experiment_id": "TopoSafe-Delta-RuntimeEnforcement-v0.2",
+  "formal_recovery_calls": 257,
+  "gate_replay_rows": 2304,
+  "human_review_required": false,
+  "human_review_used_as_evidence": false,
+  "initial_source_hashes": {
+    "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/models/initial/claude-sonnet-5/raw/episodes.jsonl": "fe8155ffd80443f36075cd7a73a54aad2d718d0462eea5777a068f70da310f31",
+    "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/models/initial/gpt-5.4/raw/episodes.jsonl": "9ed7dabc020c00736a7e514e1a8f801bd06d5e45514bd7cabd56db8a6b35f2f8",
+    "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/models/initial/llama-4-maverick/raw/episodes.jsonl": "292085f9cdc89c347b6fcf04066e3cb4a51cfb33fe0dbd427814bf270f36265a",
+    "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/models/initial/nemotron-3-super-120b/raw/episodes.jsonl": "067c1ef888e92a6811b0b33909ae242243931e30caa1c200367ae2162153832e"
+  },
+  "initial_validation_sha256": "597f682105082a93a312c3fba2329c342c9ec4986080b7c7c3f8d05769a6a736",
+  "manual_recovery_selection": false,
+  "maximum_formal_recovery_calls": 960,
+  "model_recovery_calls": {
+    "claude-sonnet-5": 0,
+    "gpt-5.4": 2,
+    "llama-4-maverick": 130,
+    "nemotron-3-super-120b": 125
+  },
+  "root_manifest_sha256": "bf1517cd68590ae825351962900b634d4069a3b34b3f234e98e89158fdb4b091",
+  "status": "derived_from_frozen_initial_rule"
+}

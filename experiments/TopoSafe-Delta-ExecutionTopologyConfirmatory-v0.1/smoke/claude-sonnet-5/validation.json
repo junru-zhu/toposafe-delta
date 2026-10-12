@@ -1,0 +1,10 @@
+{
+  "episodes_expected": 2,
+  "episodes_observed": 2,
+  "errors": [],
+  "experiment_id": "TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1",
+  "malformed": 0,
+  "passed": true,
+  "provider_errors": 0,
+  "truncated": 0
+}

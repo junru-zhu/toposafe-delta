@@ -1,0 +1,13 @@
+{
+  "candidate_tasks_sha256": "88885e9455ee51839b37307144e555e38d0540d7e6453cabd069e1c7aaaed7bb",
+  "cases_per_model": 300,
+  "cases_sha256": "2ad014e8f2d3c3e7d3ed5581a5ba8c77d6dc5922f27a3ce14066da247583ec1c",
+  "experiment_id": "TopoSafe-Delta-AuthorityMechanismAblations-v0.1",
+  "formal_calls": 1200,
+  "formal_tasks": 30,
+  "human_review_required": false,
+  "human_review_used_as_evidence": false,
+  "models": 4,
+  "parent_experiment_id": "TopoSafe-Delta-RuntimeEnforcement-v0.2",
+  "status": "automatic_gate_passed"
+}

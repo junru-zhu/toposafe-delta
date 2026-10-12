@@ -1,0 +1,19 @@
+{
+  "decision": "stopped_before_formal_calls",
+  "experiment_id": "TopoSafe-Delta-FreeRunningCommunication-v0.1",
+  "formal_provider_calls_completed": 0,
+  "human_review_required": false,
+  "invalid_models": [
+    "llama-4-maverick"
+  ],
+  "llama_active_forward_failure_rate": 0.3333333333333333,
+  "llama_active_forward_failures": 2,
+  "llama_active_forward_calls": 6,
+  "maximum_active_forward_failure_rate": 0.02,
+  "reason": "Two active first-hop Llama responses reached the frozen 180-token limit before returning parseable JSON.",
+  "smoke_assigned_model_calls": 56,
+  "smoke_episodes": 8,
+  "smoke_validation_sha256": "c04c76ee992f79dfb0fef0fa3773e3347b97a4d382a66e7d49f123c22aaa187a",
+  "status": "invalid_smoke_configuration",
+  "superseded_by": "TopoSafe-Delta-FreeRunningCommunication-v0.2"
+}

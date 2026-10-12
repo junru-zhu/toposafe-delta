@@ -1,0 +1,13 @@
+{
+  "automatic_gate_passed": true,
+  "blockers": [],
+  "case_contract_passed": true,
+  "cases_per_model": 3120,
+  "checked_at": "2026-10-06T20:46:54.002337+00:00",
+  "experiment_id": "TopoSafe-Delta-MatchedCommunication-v0.1",
+  "formal_calls": 12480,
+  "formal_tasks": 120,
+  "human_review_required": false,
+  "smoke_calls_excluded": 8,
+  "status": "ready_to_freeze"
+}

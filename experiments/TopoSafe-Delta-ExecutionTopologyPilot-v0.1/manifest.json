@@ -1,0 +1,65 @@
+{
+  "active_models": [
+    "gpt-5.4",
+    "claude-sonnet-5",
+    "nemotron-3-super-120b",
+    "llama-4-maverick"
+  ],
+  "development_only": true,
+  "experiment_id": "TopoSafe-Delta-ExecutionTopologyPilot-v0.1",
+  "formal_calls": 512,
+  "formal_cases_per_model": 128,
+  "frozen_at": "2026-10-12T19:11:01.404226+00:00",
+  "hard_budget_cap_usd": 10.0,
+  "max_output_tokens": 200,
+  "maximum_provider_attempts": 1,
+  "model_prices": {
+    "claude-sonnet-5": {
+      "basis": "Anthropic public list price plus 10% global-routing allowance",
+      "conservative_input_per_million_usd": 2.64,
+      "conservative_output_per_million_usd": 13.2,
+      "input_per_million_usd": 2.2,
+      "output_per_million_usd": 11.0
+    },
+    "gpt-5.4": {
+      "basis": "OpenAI public list price plus 10% global-routing allowance",
+      "conservative_input_per_million_usd": 3.3,
+      "conservative_output_per_million_usd": 19.8,
+      "input_per_million_usd": 2.75,
+      "output_per_million_usd": 16.5
+    },
+    "llama-4-maverick": {
+      "basis": "AWS Price List API standard us-east-1 rate",
+      "conservative_input_per_million_usd": 0.288,
+      "conservative_output_per_million_usd": 1.164,
+      "input_per_million_usd": 0.24,
+      "output_per_million_usd": 0.97
+    },
+    "nemotron-3-super-120b": {
+      "basis": "AWS Price List API standard us-east-1 rate",
+      "conservative_input_per_million_usd": 0.18,
+      "conservative_output_per_million_usd": 0.78,
+      "input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.65
+    }
+  },
+  "pricing_snapshot_date": "2026-10-12",
+  "schedule_seed": 2026101211,
+  "smoke_episode_ids": [
+    "tsc-transfer-identity-verification-override::source_verifier_sod__false_update__holder_verifier",
+    "tsc-transfer-identity-verification-override::source_verifier_sod__true_update__holder_verifier"
+  ],
+  "source_hashes": {
+    "experiments/TopoSafe-Delta-ExecutionTopologyPilot-v0.1/candidate_tasks.json": "09bcdff5b3c05e7f355c80aa4767578a41ba834805086ca1a44b76d6a7cdaa99",
+    "experiments/TopoSafe-Delta-ExecutionTopologyPilot-v0.1/cases.json": "52aed0331cce82ea22463ff4230c1f3c79d2c9af5a417f4e37f2d63351587125",
+    "experiments/TopoSafe-Delta-ExecutionTopologyPilot-v0.1/design_spec.json": "9f577b908bec28e721c15133f49da4f16f79c3e194699c0a961238f5e4b86f34",
+    "experiments/TopoSafe-Delta-ExecutionTopologyPilot-v0.1/package_summary.json": "dcb0d21b0b98c728937161f9e8aaa7b4616e95a170c491f0c5d1b917e7ec3c92",
+    "experiments/TopoSafe-Delta-ExecutionTopologyPilot-v0.1/protocol.md": "2b6b580a863f1f76c06c958cf18aa1cf06361179d7ff40980ff2513499c8cf4f",
+    "experiments/TopoSafe-Delta-ExecutionTopologyPilot-v0.1/task_validation.json": "04a350c222a305d3146c818047faa639bce740ef15c1b5d7bcbcb78862387535",
+    "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/candidate_tasks.json": "9874395a0cec954fdba5b4e65100e32cc91df24010466bc13a5c434e3ba4a5e1",
+    "scripts/run_execution_topology_pilot.py": "735ad87c530e93a7b5625c951c6235d75003d68344e8ca34c9bd0e82e1bfd83a",
+    "src/swarmsafe_delta/execution_topology_pilot.py": "e5230f745616e815fa24c0717a439f143022f221ea920af2a91c8976957f9365"
+  },
+  "status": "frozen_pre_run",
+  "workers": 6
+}

@@ -1,0 +1,27 @@
+{
+  "action_tool_mode": "auto",
+  "additional_model_request_fields": null,
+  "connect_timeout_seconds": 10,
+  "created_at": "2026-10-06T19:13:15.903227+00:00",
+  "experiment_id": "TopoSafe-Delta-RuntimeEnforcement-v0.1",
+  "force_action_tool": false,
+  "max_output_tokens": 200,
+  "maximum_provider_attempts": 3,
+  "model_id": "us.meta.llama4-maverick-17b-instruct-v1:0",
+  "model_slug": "llama-4-maverick",
+  "planned_recovery_calls": 3,
+  "read_timeout_seconds": 180,
+  "recovery_ids": [
+    "llama-4-maverick::study_a::tsc-approval-account-credit::study_a__two_of_three_quorum__false_update",
+    "llama-4-maverick::study_a::tsc-authorization-account-credit::study_a__source_verifier_sod__false_update",
+    "llama-4-maverick::study_a::tsc-completion-account-credit::study_a__source_verifier_sod__false_update"
+  ],
+  "region": "us-east-1",
+  "root_manifest_sha256": "6e9dc7fe947095d98694042a4350dde989a1422f34c535ac292a89cd01d2c761",
+  "runner_sha256": "938b59a854c5ddbad4d8f88e1c5ebe68f03ffd7035cfac84d5a255cd9fe44aa6",
+  "schedule_seed": 2026100621,
+  "stage": "smoke",
+  "temperature": 0.2,
+  "top_p": 0.9,
+  "workers": 6
+}

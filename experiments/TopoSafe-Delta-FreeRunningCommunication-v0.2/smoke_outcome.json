@@ -1,0 +1,20 @@
+{
+  "decision": "stopped_before_formal_calls",
+  "experiment_id": "TopoSafe-Delta-FreeRunningCommunication-v0.2",
+  "formal_provider_calls_completed": 0,
+  "human_review_required": false,
+  "invalid_models": [
+    "llama-4-maverick"
+  ],
+  "llama_active_forward_failure_rate": 0.3333333333333333,
+  "llama_active_forward_failures": 2,
+  "llama_active_forward_calls": 6,
+  "maximum_active_forward_failure_rate": 0.02,
+  "reason": "Both Llama active first-hop responses ended normally but contained explanation without a parseable JSON object.",
+  "smoke_assigned_model_calls": 56,
+  "smoke_episodes": 8,
+  "smoke_validation_sha256": "ddb46a95e1eb310a5b26d69b6a3f3c16ddd41f22d48ef805877e32d366705640",
+  "status": "invalid_smoke_configuration",
+  "superseded_by": "TopoSafe-Delta-FreeRunningCommunication-v0.3",
+  "supersession_status": "structured_forwarding_diagnostic_passed"
+}

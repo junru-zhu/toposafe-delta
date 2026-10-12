@@ -1,0 +1,17 @@
+{
+  "experiment_id": "TopoSafe-Delta-AuthorityCompositionControlSensitivity-v0.1",
+  "human_review_required": false,
+  "new_provider_calls": 0,
+  "source_hashes": {
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/analysis/results.json": "d8fb2eb6061da007ebe0ad1f172e6e02fbe9a1e8f2e301cf20c4aaa4e1e64a0a",
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/study_a/validation_report.json": "737b3252a374cba2b29cba8a07c0d546aaed5d1a359dd03439c60c3eb5282206",
+    "experiments/TopoSafe-Delta-AuthorityCompositionControlSensitivity-v0.1/design_spec.json": "b1eff280b8fe3eec2d118c010044ead90695af997838f94f54217d3ac58db462",
+    "experiments/TopoSafe-Delta-AuthorityCompositionControlSensitivity-v0.1/protocol.md": "bda82c3d99a31cc298bcb12a30aa853f48705f8a606dd1dcf1b65bfd91a8517b",
+    "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/models/initial_validation_report.json": "597f682105082a93a312c3fba2329c342c9ec4986080b7c7c3f8d05769a6a736",
+    "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/protocol.md": "ad252c8c7dd40da137d3356f714aefbfa6d31303dbde9a6dfde11f867128cdb2",
+    "scripts/analyze_authority_composition_control_sensitivity.py": "78c99200cfc1ccb14ba4f5467afc016a8407aece6d50ff4611498d12128ccc9e",
+    "src/swarmsafe_delta/authority_composition_control_sensitivity.py": "01fa8aeb80d9568ee5d7c5490b8b70a3995c146f3fc3211741c8e54397f5e385",
+    "tests/test_authority_composition_control_sensitivity.py": "954427b6e13b81ba91063dada9fe41407ac6a652b7e699aa362a0d0db14fd2e0"
+  },
+  "status": "complete_post_hoc_zero_call_control_gate_sensitivity"
+}

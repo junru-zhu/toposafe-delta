@@ -1,0 +1,22 @@
+{
+  "budget_mismatches": [],
+  "control_failure_rate": 0.0,
+  "control_failures": 0,
+  "control_rows": 4,
+  "duplicates": [],
+  "episodes_expected": 28,
+  "episodes_observed": 28,
+  "experiment_id": "TopoSafe-Delta-AuthorityComposition-v0.1",
+  "hash_mismatches": [],
+  "malformed": 0,
+  "malformed_or_truncated": 0,
+  "malformed_or_truncated_rate": 0.0,
+  "missing": [],
+  "passed": true,
+  "proof_mismatches": [],
+  "provider_errors": 0,
+  "score_mismatches": [],
+  "structural_errors": [],
+  "truncations": 0,
+  "unexpected": []
+}

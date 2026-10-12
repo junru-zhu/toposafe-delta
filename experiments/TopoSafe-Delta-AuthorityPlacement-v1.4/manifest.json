@@ -1,0 +1,71 @@
+{
+  "condition_matrix": "experiments/TopoSafe-Delta-AuthorityPlacement-v1.4/condition_matrix.json",
+  "control_cells": 2,
+  "episodes_per_model": 336,
+  "evidence_boundary": "Corrected protocol frozen before any v1.4 provider call. v1 through v1.3 remain immutable invalid/excluded runs. v1.4 uses exact state-field patches, the preregistered 200-token budget, a one-field JSON output contract, deterministic control scoring, and explicitly disables Claude Sonnet 5 adaptive thinking so the response can fit the frozen token budget.",
+  "experiment_id": "TopoSafe-Delta-AuthorityPlacement-v1.4",
+  "factorial_cells": 12,
+  "formal_calls": 1008,
+  "frozen_at": "2026-10-05T23:00:35.521733+00:00",
+  "graph_budget": {
+    "edges": 3,
+    "executor_deliveries": 1,
+    "model_calls": 1,
+    "nodes": 4
+  },
+  "max_output_tokens": 200,
+  "maximum_provider_attempts": 3,
+  "models": {
+    "claude-sonnet-5": {
+      "additional_model_request_fields": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "model_id": "global.anthropic.claude-sonnet-5",
+      "region": "us-east-1",
+      "temperature": null,
+      "top_p": null
+    },
+    "gpt-5.4": {
+      "additional_model_request_fields": {
+        "reasoning_effort": "low"
+      },
+      "model_id": "global.openai.gpt-5.4",
+      "region": "us-east-1",
+      "temperature": null,
+      "top_p": null
+    },
+    "nemotron-3-super-120b": {
+      "additional_model_request_fields": null,
+      "model_id": "nvidia.nemotron-super-3-120b",
+      "region": "us-east-1",
+      "temperature": 0.2,
+      "top_p": 0.9
+    }
+  },
+  "prompt_inventory_sha256": "f05175a60ee3de7bcfb8a007a7692ac4b622bbd2ce171fbfe0e9d3102bb05c22",
+  "protocol": "experiments/TopoSafe-Delta-AuthorityPlacement-v1.4/protocol.md",
+  "provider_seed_supported": false,
+  "read_timeout_seconds": 180,
+  "schedule_seed": 2026100507,
+  "smoke_calls": 84,
+  "smoke_task_ids": [
+    "approval-vendor-payment",
+    "protected-transfer-sso-trace"
+  ],
+  "source_hashes": {
+    "data/authority_placement_tasks_v1.json": "007491e22730710d93af91a070b3e99a670a5b19ca25223759d17615521ab628",
+    "experiments/TopoSafe-Delta-AuthorityPlacement-v1.4/condition_matrix.json": "0c612ec573fb2edf5265fdb6f0cfd496360b6cc1c0d4e5a94c853b75175babfa",
+    "experiments/TopoSafe-Delta-AuthorityPlacement-v1.4/protocol.md": "800a1b231628ed2ac5b025293f169eaa919b33f2778eafdc8efd1d1a23e26299",
+    "scripts/analyze_authority_placement.py": "137cfaf62edcd336c55cef1e271bfe69389bdf32627a767ba9b3ed565d6c0fca",
+    "scripts/run_authority_placement.py": "45d8e9a359508ab3f064cc3afcfa0967935ca8cc0ef8b6445c77bd879f68a83b",
+    "scripts/validate_authority_placement.py": "bb6994a545ab161d5d53a535c48d07d3302100891afb21b2d48aa69a4c088a55",
+    "src/swarmsafe_delta/authority_placement.py": "8432a75f5ad9a3cf79fa1e2a73c5925a5ea8b14e0ef4bfb4e9d82cdb2fb41516",
+    "src/swarmsafe_delta/pilot.py": "82af638322e7eaa170771e10fbc0d44d84e5ade328b6e6eb3106c6c7ea9bdf24"
+  },
+  "status": "frozen_pre_run",
+  "task_count": 24,
+  "task_file": "data/authority_placement_tasks_v1.json",
+  "workers": 6
+}

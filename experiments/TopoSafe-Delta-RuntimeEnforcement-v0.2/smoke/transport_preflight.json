@@ -1,0 +1,21 @@
+{
+  "experiment_id": "TopoSafe-Delta-RuntimeEnforcement-v0.2",
+  "stage": "smoke",
+  "status": "passed_transport_and_integrity_only",
+  "rows_expected": 8,
+  "rows_observed": 8,
+  "provider_errors": 0,
+  "malformed_or_truncated": 0,
+  "duplicates": 0,
+  "missing": 0,
+  "unexpected": 0,
+  "structural_errors": 0,
+  "score_mismatches": 0,
+  "hash_mismatches": 0,
+  "budget_mismatches": 0,
+  "formal_responsiveness_gate_applied": false,
+  "formal_responsiveness_gate_not_applicable_reason": "The frozen smoke subset contains no direct-state control rows.",
+  "smoke_runner_exit_explanation": "Per-model runner validation returned false only because the formal control-progress gate was applied to a zero-control smoke subset.",
+  "included_in_formal_evidence": false,
+  "human_review_used_as_evidence": false
+}

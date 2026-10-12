@@ -1,0 +1,13 @@
+{
+  "episodes_expected": 128,
+  "episodes_observed": 128,
+  "errors": [
+    "provider errors: 6",
+    "malformed-or-truncated rate exceeds 2%"
+  ],
+  "experiment_id": "TopoSafe-Delta-ExecutionTopologyPilot-v0.1",
+  "malformed": 6,
+  "passed": false,
+  "provider_errors": 6,
+  "truncated": 0
+}

@@ -1,0 +1,12 @@
+{
+  "conservative_cost_usd": 0.027482028,
+  "cumulative_conservative_cost_usd": 0.24074238,
+  "episodes": 128,
+  "estimated_cost_usd": 0.02290169,
+  "experiment_id": "TopoSafe-Delta-ExecutionTopologyPilot-v0.1",
+  "hard_budget_cap_usd": 10.0,
+  "input_tokens": 81872,
+  "model_slug": "llama-4-maverick",
+  "output_tokens": 3353,
+  "stage": "formal"
+}

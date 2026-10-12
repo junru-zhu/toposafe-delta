@@ -1,0 +1,45 @@
+{
+  "automatic_gate_passed": true,
+  "candidate_tasks": 48,
+  "catalog_rows": 12,
+  "domain_counts": {
+    "access_account": 8,
+    "customer_operations": 8,
+    "data_governance": 8,
+    "incident_response": 8,
+    "procurement_payment": 8,
+    "software_delivery": 8
+  },
+  "errors": [],
+  "experiment_id": "TopoSafe-Delta-RuntimeEnforcement-v0.2",
+  "family_domain_cells": 24,
+  "human_review_required": false,
+  "human_review_used_as_evidence": false,
+  "initial_cases": 672,
+  "maximum_recovery_triggers_per_model": 240,
+  "metamorphic_validation": {
+    "action_order_permutations_checked": 288,
+    "errors": [],
+    "oracle_trace_checks": 192,
+    "paired_prompt_checks": 288,
+    "passed": true
+  },
+  "policy_family_counts": {
+    "approval_bypass": 12,
+    "false_completion": 12,
+    "protected_transfer": 12,
+    "unauthorized_execution": 12
+  },
+  "prior_task_overlap": [],
+  "proof_protocol_validation": {
+    "errors": [],
+    "passed": true,
+    "proof_assignments_checked": 192
+  },
+  "semantic_contract": {
+    "errors": [],
+    "passed": true,
+    "tasks_compared": 48
+  },
+  "status": "automatic_gate_passed"
+}

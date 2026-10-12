@@ -1,0 +1,122 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Andriushchenko et~al.(2025)Andriushchenko, Souly, Dziemian, Duenas,
+  Lin, Wang, Hendrycks, Zou, Kolter, Fredrikson, Winsor, Wynne, Gal, and
+  Davies}]{andriushchenko2025agentharm}
+Maksym Andriushchenko, Alexandra Souly, Mateusz Dziemian, Derek Duenas, Maxwell
+  Lin, Justin Wang, Dan Hendrycks, Andy Zou, Zico Kolter, Matt Fredrikson, Eric
+  Winsor, Jerome Wynne, Yarin Gal, and Xander Davies. 2025.
+\newblock \href {https://arxiv.org/abs/2410.09024} {{AgentHarm}: A benchmark
+  for measuring harmfulness of {LLM} agents}.
+\newblock In \emph{International Conference on Learning Representations}.
+
+\bibitem[{Debenedetti et~al.(2024)Debenedetti, Zhang, Balunovi{\'c},
+  Beurer-Kellner, Fischer, and Tram{\`e}r}]{debenedetti2024agentdojo}
+Edoardo Debenedetti, Jie Zhang, Mislav Balunovi{\'c}, Luca Beurer-Kellner, Marc
+  Fischer, and Florian Tram{\`e}r. 2024.
+\newblock \href {https://arxiv.org/abs/2406.13352} {{AgentDojo}: A dynamic
+  environment to evaluate prompt injection attacks and defenses for {LLM}
+  agents}.
+\newblock In \emph{Advances in Neural Information Processing Systems}.
+
+\bibitem[{Hagag et~al.(2026)Hagag, Anderson, Schroeder~de Witt, and
+  Scheffler}]{hagag2026architecture}
+Ben Hagag, William~L. Anderson, Christian Schroeder~de Witt, and Sarah
+  Scheffler. 2026.
+\newblock \href {https://arxiv.org/abs/2604.23459} {Architecture matters for
+  multi-agent security}.
+\newblock \emph{Preprint}, arXiv:2604.23459.
+
+\bibitem[{Liang et~al.(2025)Liang, Yin, Chen, Feng, Wu, Zhang, Gu, Zhang, and
+  Liu}]{liang2025upstream}
+Ruichao Liang, Le~Yin, Jing Chen, Yebo Feng, Cong Wu, Xiaoyu Zhang, Huangpeng
+  Gu, Zijian Zhang, and Yang Liu. 2025.
+\newblock \href {https://arxiv.org/abs/2512.04129} {Don't trust your upstream:
+  Exploiting {LLM} multi-agent system via topology-guided adversarial
+  propagation}.
+\newblock \emph{Preprint}, arXiv:2512.04129.
+
+\bibitem[{Ruan et~al.(2024)Ruan, Dong, Wang, Pitis, Zhou, Ba, Dubois, Maddison,
+  and Hashimoto}]{ruan2024toolemu}
+Yangjun Ruan, Honghua Dong, Andrew Wang, Silviu Pitis, Yongchao Zhou, Jimmy Ba,
+  Yann Dubois, Chris~J. Maddison, and Tatsunori Hashimoto. 2024.
+\newblock \href {https://arxiv.org/abs/2309.15817} {Identifying the risks of
+  {LM} agents with an {LM}-emulated sandbox}.
+\newblock In \emph{International Conference on Learning Representations}.
+
+\bibitem[{Wallace et~al.(2024)Wallace, Xiao, Leike, Weng, Heidecke, and
+  Beutel}]{wallace2024instruction}
+Eric Wallace, Kai Xiao, Reimar Leike, Lilian Weng, Johannes Heidecke, and Alex
+  Beutel. 2024.
+\newblock \href {https://arxiv.org/abs/2404.13208} {The instruction hierarchy:
+  Training {LLM}s to prioritize privileged instructions}.
+\newblock \emph{Preprint}, arXiv:2404.13208.
+
+\bibitem[{Wang et~al.(2025)Wang, Zhang, Yu, Wan, Meng, Guo, Wang, and
+  Wang}]{wang-etal-2025-g-safeguard}
+Shilong Wang, Guibin Zhang, Miao Yu, Guancheng Wan, Fanci Meng, Chongye Guo,
+  Kun Wang, and Yang Wang. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.acl-long.359} {{G}-safeguard:
+  A topology-guided security lens and treatment on {LLM}-based multi-agent
+  systems}.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 7261--7276.
+  Association for Computational Linguistics.
+
+\bibitem[{Xie et~al.(2026)Xie, Zhu, Zhang, Zhu, Ye, Qi, Chen, and
+  Zhou}]{xie2026spark}
+Yizhe Xie, Congcong Zhu, Xinyue Zhang, Tianqing Zhu, Dayong Ye, Minfeng Qi,
+  Huajie Chen, and Wanlei Zhou. 2026.
+\newblock \href {https://arxiv.org/abs/2603.04474} {From spark to fire:
+  Modeling and mitigating error cascades in {LLM}-based multi-agent
+  collaboration}.
+\newblock \emph{Preprint}, arXiv:2603.04474.
+
+\bibitem[{Xu et~al.(2026)Xu, Zhang, Luo, Jin, Dong, and Salam}]{xu2026masdrift}
+Zhuoning Xu, Xiucheng Zhang, Hanjun Luo, Yingbin Jin, Yinpeng Dong, and Hanan
+  Salam. 2026.
+\newblock \href {https://arxiv.org/abs/2608.07556} {{MasDrift}: Benchmarking
+  authorization preservation across multi-agent architectures}.
+\newblock \emph{Preprint}, arXiv:2608.07556.
+
+\bibitem[{Yu et~al.(2025)Yu, Wang, Zhang, Mao, Yin, Liu, Wang, Wen, and
+  Wang}]{yu-etal-2025-netsafe}
+Miao Yu, Shilong Wang, Guibin Zhang, Junyuan Mao, Chenlong Yin, Qijiong Liu,
+  Kun Wang, Qingsong Wen, and Yang Wang. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.findings-acl.150}
+  {{N}et{S}afe: Exploring the topological safety of multi-agent system}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2025}, pages 2905--2938. Association for Computational Linguistics.
+
+\bibitem[{Zhou et~al.(2025)Zhou, Hwang, Ren, Dziri, Jurafsky, and
+  Sap}]{zhou-etal-2025-rel}
+Kaitlyn Zhou, Jena~D. Hwang, Xiang Ren, Nouha Dziri, Dan Jurafsky, and Maarten
+  Sap. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.naacl-long.556}
+  {{REL}-{A}.{I}.: An interaction-centered approach to measuring human-{LM}
+  reliance}.
+\newblock In \emph{Proceedings of the 2025 Conference of the Nations of the
+  Americas Chapter of the Association for Computational Linguistics: Human
+  Language Technologies (Volume 1: Long Papers)}, pages 11148--11167.
+  Association for Computational Linguistics.
+
+\bibitem[{Zhou et~al.(2024)Zhou, Hwang, Ren, and Sap}]{zhou-etal-2024-relying}
+Kaitlyn Zhou, Jena~D. Hwang, Xiang Ren, and Maarten Sap. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.acl-long.198} {Relying on the
+  unreliable: The impact of language models' reluctance to express
+  uncertainty}.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 3623--3643.
+  Association for Computational Linguistics.
+
+\bibitem[{Zhu et~al.(2025)Zhu, Zhang, Shi, Zhang, Yang, and
+  Luo}]{zhu-etal-2025-master}
+Yifan Zhu, Chao Zhang, Xin Shi, Xueqiao Zhang, Yi~Yang, and Yawei Luo. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.findings-emnlp.917}
+  {{MASTER}: Multi-agent security through exploration of roles and topological
+  structures---a comprehensive framework}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2025}, pages 16895--16921. Association for Computational Linguistics.
+
+\end{thebibliography}

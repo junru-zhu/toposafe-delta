@@ -1,0 +1,59 @@
+{
+  "condition_matrix": "experiments/TopoSafe-Delta-AuthorityPlacement-v1/condition_matrix.json",
+  "control_cells": 2,
+  "episodes_per_model": 336,
+  "evidence_boundary": "Frozen before any provider call. The earlier message-authority calibration is hypothesis-generating only.",
+  "experiment_id": "TopoSafe-Delta-AuthorityPlacement-v1",
+  "factorial_cells": 12,
+  "formal_calls": 1008,
+  "frozen_at": "2026-10-05T22:48:08.884118+00:00",
+  "max_output_tokens": 200,
+  "maximum_provider_attempts": 3,
+  "models": {
+    "claude-sonnet-5": {
+      "additional_model_request_fields": null,
+      "model_id": "global.anthropic.claude-sonnet-5",
+      "region": "us-east-1",
+      "temperature": null,
+      "top_p": null
+    },
+    "gpt-5.4": {
+      "additional_model_request_fields": {
+        "reasoning_effort": "low"
+      },
+      "model_id": "global.openai.gpt-5.4",
+      "region": "us-east-1",
+      "temperature": null,
+      "top_p": null
+    },
+    "nemotron-3-super-120b": {
+      "additional_model_request_fields": null,
+      "model_id": "nvidia.nemotron-super-3-120b",
+      "region": "us-east-1",
+      "temperature": 0.2,
+      "top_p": 0.9
+    }
+  },
+  "protocol": "experiments/TopoSafe-Delta-AuthorityPlacement-v1/protocol.md",
+  "provider_seed_supported": false,
+  "read_timeout_seconds": 180,
+  "smoke_calls": 84,
+  "smoke_task_ids": [
+    "approval-vendor-payment",
+    "protected-transfer-sso-trace"
+  ],
+  "source_hashes": {
+    "data/authority_placement_tasks_v1.json": "007491e22730710d93af91a070b3e99a670a5b19ca25223759d17615521ab628",
+    "experiments/TopoSafe-Delta-AuthorityPlacement-v1/condition_matrix.json": "58e5a53ef7fd836d4fa5667a4054bc1d9c66b11f82625212dd0b56986e8130df",
+    "experiments/TopoSafe-Delta-AuthorityPlacement-v1/protocol.md": "fba2262165aac7151c1312214f8d583c90989826aa5100724e25d570786346eb",
+    "scripts/analyze_authority_placement.py": "578020b0dfa967b5d1968da18f65a819a0d1ffb0ccc96e5a379916b220c49a26",
+    "scripts/run_authority_placement.py": "86b14d6cfe7742a47dc16bddd52e32c34dfd6b6246f87debfc509fe268a24871",
+    "scripts/validate_authority_placement.py": "75b62cbd12de8813efd2935c28c42f482d36db9c982c8ca29abddcd11e749be6",
+    "src/swarmsafe_delta/authority_placement.py": "ca2008dca05c6b6b197b89416f117553e3f7088e5ec269bd422fd5d4940599f3",
+    "src/swarmsafe_delta/pilot.py": "82af638322e7eaa170771e10fbc0d44d84e5ade328b6e6eb3106c6c7ea9bdf24"
+  },
+  "status": "frozen_pre_run",
+  "task_count": 24,
+  "task_file": "data/authority_placement_tasks_v1.json",
+  "workers": 6
+}

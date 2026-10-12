@@ -1,0 +1,12 @@
+{
+  "conservative_cost_usd": 0.5629747199999999,
+  "cumulative_conservative_cost_usd": 0.63706536,
+  "episodes": 128,
+  "estimated_cost_usd": 0.46914560000000005,
+  "experiment_id": "TopoSafe-Delta-ExecutionTopologyPilot-v0.1",
+  "hard_budget_cap_usd": 10.0,
+  "input_tokens": 180768,
+  "model_slug": "claude-sonnet-5",
+  "output_tokens": 6496,
+  "stage": "formal"
+}

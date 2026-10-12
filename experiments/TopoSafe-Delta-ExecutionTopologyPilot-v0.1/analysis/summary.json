@@ -1,0 +1,9 @@
+{
+  "conservative_total_cost_usd": 0.8122589279999999,
+  "estimated_total_cost_usd": 0.6768824400000001,
+  "experiment_id": "TopoSafe-Delta-ExecutionTopologyPilot-v0.1",
+  "formal_rows": 512,
+  "result_status": "execution_topology_development_pilot",
+  "results_sha256": "d31fc112c9985826d55cb19fc856217269002a99d84d4ad77b5922ff11750aa7",
+  "status": "development_pilot_complete"
+}

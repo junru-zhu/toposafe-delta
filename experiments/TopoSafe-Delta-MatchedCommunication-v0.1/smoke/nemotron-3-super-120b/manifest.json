@@ -1,0 +1,21 @@
+{
+  "additional_model_request_fields": null,
+  "connect_timeout_seconds": 10,
+  "created_at": "2026-10-06T20:46:59.936013+00:00",
+  "experiment_id": "TopoSafe-Delta-MatchedCommunication-v0.1",
+  "force_action_tool": false,
+  "max_output_tokens": 200,
+  "maximum_provider_attempts": 3,
+  "model_id": "nvidia.nemotron-super-3-120b",
+  "model_slug": "nemotron-3-super-120b",
+  "planned_calls": 2,
+  "read_timeout_seconds": 180,
+  "region": "us-east-1",
+  "root_manifest_sha256": "9717253f522152fdaabdb065b711ab8f0f5c48d111a316d4c9caf9bf15f00fd9",
+  "runner_sha256": "318f1a10b9a68af6979e092a95cab313673a0a9f3a4af0801f0d4777cf4fc825",
+  "schedule_seed": 2026100631,
+  "stage": "smoke",
+  "temperature": 0.2,
+  "top_p": 0.9,
+  "workers": 6
+}

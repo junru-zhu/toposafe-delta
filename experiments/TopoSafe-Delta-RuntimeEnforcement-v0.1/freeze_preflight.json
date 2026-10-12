@@ -1,0 +1,32 @@
+{
+  "blockers": [],
+  "checked_at": "2026-10-06T19:13:10.076402+00:00",
+  "checks": {
+    "design_status": true,
+    "experiment_id": true,
+    "formal_calls": true,
+    "gate_blocks_invalid_proof": true,
+    "human_review_required": true,
+    "human_review_used": true,
+    "invalid_proof_only": true,
+    "model_counts": true,
+    "proof_rows": true,
+    "recovery_matches_replay": true,
+    "smoke_calls": true,
+    "summary_formal_calls": true,
+    "summary_smoke_calls": true,
+    "unique_recovery_ids": true,
+    "unique_replay_ids": true
+  },
+  "excluded_smoke_calls": 8,
+  "experiment_id": "TopoSafe-Delta-RuntimeEnforcement-v0.1",
+  "formal_recovery_calls": 697,
+  "model_recovery_calls": {
+    "claude-sonnet-5": 0,
+    "gpt-5.4": 60,
+    "llama-4-maverick": 323,
+    "nemotron-3-super-120b": 314
+  },
+  "proof_bearing_source_rows": 6480,
+  "status": "ready_to_freeze"
+}

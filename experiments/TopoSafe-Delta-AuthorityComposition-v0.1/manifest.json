@@ -1,0 +1,106 @@
+{
+  "automatic_validation_file": "experiments/TopoSafe-Delta-AuthorityComposition-v0.1/task_validation.json",
+  "automatic_validation_protocol": "experiments/TopoSafe-Delta-AuthorityComposition-v0.1/automatic_validation_protocol.md",
+  "connect_timeout_seconds": 10,
+  "evidence_boundary": "Study A and the authority-cut threshold extension are frozen only after deterministic contract, oracle-replay, metamorphic, paired-prompt, and exhaustive proof-policy validation of all 120 tasks, plus an excluded model transport preflight. No human review is required or used as experiment evidence. Model preflight and smoke rows are excluded from formal analysis. The remaining matched-topology and targeted ablation studies retain planned status.",
+  "experiment_id": "TopoSafe-Delta-AuthorityComposition-v0.1",
+  "frozen_at": "2026-10-06T18:49:31.026331+00:00",
+  "full_confirmatory_calls_planned": 26880,
+  "graph_budget": {
+    "edges": 3,
+    "executor_deliveries": 1,
+    "model_calls": 1,
+    "nodes": 4
+  },
+  "human_review_required": false,
+  "implemented_formal_calls": 7440,
+  "legacy_human_review_artifacts_used": false,
+  "max_output_tokens": 200,
+  "maximum_provider_attempts": 3,
+  "model_preflight": "experiments/TopoSafe-Delta-AuthorityComposition-v0.1/preflight/model_preflight.json",
+  "models": {
+    "claude-sonnet-5": {
+      "additional_model_request_fields": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "force_action_tool": true,
+      "model_id": "global.anthropic.claude-sonnet-5",
+      "region": "us-east-1",
+      "temperature": null,
+      "top_p": null
+    },
+    "gpt-5.4": {
+      "additional_model_request_fields": {
+        "reasoning_effort": "low"
+      },
+      "force_action_tool": false,
+      "model_id": "global.openai.gpt-5.4",
+      "region": "us-east-1",
+      "temperature": null,
+      "top_p": null
+    },
+    "llama-4-maverick": {
+      "additional_model_request_fields": null,
+      "force_action_tool": false,
+      "model_id": "us.meta.llama4-maverick-17b-instruct-v1:0",
+      "region": "us-east-1",
+      "temperature": 0.2,
+      "top_p": 0.9
+    },
+    "nemotron-3-super-120b": {
+      "additional_model_request_fields": null,
+      "force_action_tool": false,
+      "model_id": "nvidia.nemotron-super-3-120b",
+      "region": "us-east-1",
+      "temperature": 0.2,
+      "top_p": 0.9
+    }
+  },
+  "not_yet_implemented_in_this_runner": [
+    "study_b1_matched_topology",
+    "study_b2_free_running_subset",
+    "schedule_robustness_subset",
+    "study_c_targeted_mechanism_ablations"
+  ],
+  "prompt_inventory_sha256": "0f16dffbbda8d655c9b6dae2b45a9080dd3cb1e09feed02bb4ce731a5bb8101c",
+  "provider_seed_supported": false,
+  "read_timeout_seconds": 180,
+  "schedule_seed": 2026100611,
+  "smoke_calls": 112,
+  "smoke_task_ids": [
+    "tsc-approval-supplier-invoice-release",
+    "tsc-transfer-escalated-case-closure"
+  ],
+  "source_hashes": {
+    "data/toposafe_authority_task_catalog_v0.1.json": "464773b297dc08f2f892781d9b3d40cbe665f06ea72f1db026a5ea50f675e118",
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.1/automatic_validation_protocol.md": "f970108bab8823ea861574667e7a604b1d4d6f104248bab98e9cd5b710c2d4f8",
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.1/candidate_tasks.json": "f07c3af17214eab0f9d2bc9bc87d533e42f9ee50de3337093a3cf859ba13067c",
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.1/design_spec.json": "5e42083af36aef0aa35c96a0dbdd99b548b34870a4be251255445e6f7f85bcaf",
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.1/preflight/model_preflight.json": "82c9a50bae27dedd133403ff08c83df7cfdf84129506712ae9350f61f0ea3ecb",
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.1/protocol.md": "94618bd015a7b8dc82d7bdde1b3e239920dc9579f2bedd74c3e2102d3303b1c9",
+    "experiments/TopoSafe-Delta-AuthorityComposition-v0.1/task_validation.json": "3e7ecebb5dd94f0c7b4089dc140e9d3ee735c77a59083aa103053ac85604d82e",
+    "scripts/preflight_authority_composition_models.py": "9428f5927abc230399914dea2b9cf80124de11c92f205c6a863643769a69b96a",
+    "scripts/run_authority_composition.py": "0263c11a49b2151624a92b232f193153a2cb56ad269563f4c50e8229a2edfbd7",
+    "scripts/validate_authority_composition.py": "aaeb36a66ff96065ee51161e8dbed3e0fb9b8c06533ed9250d361a6eb3aaee23",
+    "src/swarmsafe_delta/authority_automatic_validation.py": "1ed6be9f633653c7477ab0ff2cf1e36edea153acc43d76e739a487e8483ca31b",
+    "src/swarmsafe_delta/authority_composition.py": "02c384819d62ee0d5921993aec73e719be866488dbe1068b8f979947f2b0be36",
+    "src/swarmsafe_delta/authority_placement.py": "8fe4385fa1578d5539619d89eb45f88e6eb53becf966dff73278ed4848126cd7",
+    "src/swarmsafe_delta/authority_task_construction.py": "550d330fdf2cf47ee62696e8960741b116fe28c00a5c0bdbefb3271fd6238caf",
+    "src/swarmsafe_delta/pilot.py": "82af638322e7eaa170771e10fbc0d44d84e5ade328b6e6eb3106c6c7ea9bdf24"
+  },
+  "status": "frozen_pre_run",
+  "studies": {
+    "study_a": {
+      "cases_per_model": 1680,
+      "formal_calls": 6720
+    },
+    "threshold": {
+      "cases_per_model": 180,
+      "formal_calls": 720
+    }
+  },
+  "task_file": "experiments/TopoSafe-Delta-AuthorityComposition-v0.1/candidate_tasks.json",
+  "workers": 6
+}
