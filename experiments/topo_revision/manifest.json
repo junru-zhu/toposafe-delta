@@ -1,0 +1,48 @@
+{
+  "bootstrap_draws": 5000,
+  "default_safety_limits": {
+    "MAX_NEW_LLM_CALLS": 15000,
+    "MAX_PARALLEL_REQUESTS": 5,
+    "MAX_SPEND_USD": 250
+  },
+  "executor_max_output_tokens": 120,
+  "experiment_suite": "TopoSafe-Delta-Revision-v1.0",
+  "frozen_at": "2026-10-12T22:38:27.417920+00:00",
+  "git_head_at_freeze": "077425328a8aceb0a3e97ced746170258b47fc54",
+  "maximum_provider_attempts": 2,
+  "models": [
+    "gpt-5.4",
+    "claude-sonnet-5",
+    "nemotron-3-super-120b",
+    "llama-4-maverick"
+  ],
+  "provider_seed_supported": false,
+  "schedule_seed": 20271012,
+  "source_hashes": {
+    "experiments/topo_revision/EXISTING_EVIDENCE_AUDIT.md": "5604a7b7bc078637bb26cc4c4ac951442c831501aca7ca293e99c6e8a295f92a",
+    "experiments/topo_revision/EXPERIMENT_MATRIX.csv": "bebca6375836c6f5d2572438a4cc44b8c2080ef0bae68eb305f254ce1fcd432f",
+    "experiments/topo_revision/PROTOCOL.md": "f3158343ae402176b8bad998dd3f6e48faa549e4bfdf8f88e7a8b16f85a77257",
+    "experiments/topo_revision/frozen/e1_cases.json": "843316ef9184f6928f151b92a2dd107abe3ece8d07b32dd66d4aaaf81a08a503",
+    "experiments/topo_revision/frozen/e1_tasks.json": "ea01d1dda232d072e1479dcda426d6e7fe76ee4d20ffd41deedd3f5f47bd1c26",
+    "experiments/topo_revision/frozen/e2_cases.json": "088a3c8dc8c5b3070363ece17673665caece30a8e29fd3d4ba19e1f2442c5005",
+    "experiments/topo_revision/frozen/e2_control_cases.json": "03ed37140471365cfb14ba76e2498426be6d5b421b27e1834a08092d4911e645",
+    "experiments/topo_revision/frozen/e2_tasks.json": "47c3ec0c58551511db6366dbbe52d88231ca9b79662eec655d96eb22a02349c6",
+    "experiments/topo_revision/frozen/e3_cases.json": "36efc600464ee6dd16d13d162cd1352382a38a917e54607b583f9a47a6948797",
+    "experiments/topo_revision/frozen/e3_tasks.json": "5aec70f44a929ecba6dc70054fe304776c9c5d704c9812bdee826931bc7cdfd3",
+    "experiments/topo_revision/frozen/package_summary.json": "9c97b28728e7f3e50dc3a499da2741c3081c9fcbecf3f18db0bde80517455385",
+    "experiments/topo_revision/frozen/pilot_task_ids.json": "e56716ca8cf8400396ffbace9681a4854e6b8f0ee2a77a87c9981c5b78af478c",
+    "experiments/topo_revision/frozen/preflight_validation.json": "9afbdfd05d2500abdd0e8eeb4f021a5c27041cfc5ed95791d0402bfddda1fce8",
+    "scripts/analyze_topo_revision.py": "ca7091380e5f4c88d46c638eeac4cd14f2be3d9161f86b7ffbc99ba079261758",
+    "scripts/audit_topo_revision_evidence.py": "29f8ec987f4b60a281ee449d97bb1f70bc3d04f4167810ac8e5458b63dc5997d",
+    "scripts/build_topo_revision.py": "ec4a92d6bf4afd6700f327eba8e7f807684066459d59c63349f09b34646d90fd",
+    "scripts/plot_topo_revision.py": "0979453c1944df845063bd1de0244a22eff5fb67bc66b8cad518948d4f1bd25e",
+    "scripts/run_topo_revision.py": "55f680e1184ccb59541297389cda5b53c74a53cb8a3595e73dc34a62f2708ee8",
+    "scripts/validate_topo_revision.py": "2b8c77fd78bc2457cf051be3a611c1ff8df715b176d1e1530241e7cd691b672a",
+    "src/swarmsafe_delta/topo_revision_authority_cut.py": "6f82f81b278df822cddcc5c037c1f7ef28750214d76f2acdb8725ac4ad4994f5",
+    "src/swarmsafe_delta/topo_revision_common.py": "5ba3e026b3ec87ab031596746e5bd533ec2dab1c589382de8a067180bc1cbfe8",
+    "src/swarmsafe_delta/topo_revision_provenance.py": "77ffdcabb76ced1a3c48eac5e7f49fdcc6a92aa204b143aef97be1d064477978",
+    "src/swarmsafe_delta/topo_revision_tasks.py": "560d582de8d45233b24536dfa6485a0fdb8936aecb1a9be9497a3ac7b9ce68ba",
+    "src/swarmsafe_delta/topo_revision_workflow.py": "eccd49acdad81c096f70ed5b5779cd64ec4069851b3eb0715a96595eaa7fb087"
+  },
+  "status": "frozen_pre_run"
+}
