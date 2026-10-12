@@ -1,0 +1,23 @@
+{
+  "E1": [
+    "trev-e1-administrative_transition-00",
+    "trev-e1-privileged_access-00",
+    "trev-e1-reimbursement-00",
+    "trev-e1-sensitive_release-00"
+  ],
+  "E2": [
+    "trev-e2-administrative_transition-00",
+    "trev-e2-privileged_access-00",
+    "trev-e2-reimbursement-00",
+    "trev-e2-sensitive_release-00"
+  ],
+  "E2_controls": [
+    "trev-e2-administrative_transition-00",
+    "trev-e2-privileged_access-00"
+  ],
+  "E3": [
+    "trev-e3-expense_reimbursement-00",
+    "trev-e3-privileged_access-00",
+    "trev-e3-sensitive_document_release-00"
+  ]
+}

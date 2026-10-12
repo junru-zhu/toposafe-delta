@@ -1,0 +1,139 @@
+{
+  "audited_at": "2026-10-12T22:37:57.846871+00:00",
+  "checks": [
+    {
+      "expected_rows": 1008,
+      "glob": "experiments/TopoSafe-Delta-AuthorityPlacement-v1.6/models/*/raw/episodes.jsonl",
+      "id": "authority_placement_v1_6",
+      "observed_rows": 1008,
+      "passed": true,
+      "raw_files": [
+        "experiments/TopoSafe-Delta-AuthorityPlacement-v1.6/models/claude-sonnet-5/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-AuthorityPlacement-v1.6/models/gpt-5.4/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-AuthorityPlacement-v1.6/models/nemotron-3-super-120b/raw/episodes.jsonl"
+      ],
+      "results": "experiments/TopoSafe-Delta-AuthorityPlacement-v1.6/analysis/multimodel_summary.json",
+      "results_file_exists": true,
+      "row_count_matches": true
+    },
+    {
+      "expected_rows": 7440,
+      "glob": "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/*/*/raw/episodes.jsonl",
+      "id": "authority_composition_v0_2",
+      "observed_rows": 7440,
+      "passed": true,
+      "raw_files": [
+        "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/study_a/claude-sonnet-5/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/study_a/gpt-5.4/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/study_a/llama-4-maverick/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/study_a/nemotron-3-super-120b/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/threshold/claude-sonnet-5/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/threshold/gpt-5.4/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/threshold/llama-4-maverick/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/models/threshold/nemotron-3-super-120b/raw/episodes.jsonl"
+      ],
+      "results": "experiments/TopoSafe-Delta-AuthorityComposition-v0.2/analysis/results.json",
+      "results_file_exists": true,
+      "row_count_matches": true
+    },
+    {
+      "expected_rows": 2688,
+      "glob": "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/models/initial/*/raw/episodes.jsonl",
+      "id": "runtime_enforcement_v0_2_initial",
+      "observed_rows": 2688,
+      "passed": true,
+      "raw_files": [
+        "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/models/initial/claude-sonnet-5/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/models/initial/gpt-5.4/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/models/initial/llama-4-maverick/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/models/initial/nemotron-3-super-120b/raw/episodes.jsonl"
+      ],
+      "results": "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/analysis/results.json",
+      "results_file_exists": true,
+      "row_count_matches": true
+    },
+    {
+      "expected_rows": 257,
+      "glob": "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/models/recovery/*/raw/recovery.jsonl",
+      "id": "runtime_enforcement_v0_2_recovery",
+      "observed_rows": 257,
+      "passed": true,
+      "raw_files": [
+        "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/models/recovery/claude-sonnet-5/raw/recovery.jsonl",
+        "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/models/recovery/gpt-5.4/raw/recovery.jsonl",
+        "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/models/recovery/llama-4-maverick/raw/recovery.jsonl",
+        "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/models/recovery/nemotron-3-super-120b/raw/recovery.jsonl"
+      ],
+      "results": "experiments/TopoSafe-Delta-RuntimeEnforcement-v0.2/analysis/results.json",
+      "results_file_exists": true,
+      "row_count_matches": true
+    },
+    {
+      "expected_rows": 12480,
+      "glob": "experiments/TopoSafe-Delta-MatchedCommunication-v0.1/models/*/raw/episodes.jsonl",
+      "id": "matched_communication_v0_1",
+      "observed_rows": 12480,
+      "passed": true,
+      "raw_files": [
+        "experiments/TopoSafe-Delta-MatchedCommunication-v0.1/models/claude-sonnet-5/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-MatchedCommunication-v0.1/models/gpt-5.4/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-MatchedCommunication-v0.1/models/llama-4-maverick/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-MatchedCommunication-v0.1/models/nemotron-3-super-120b/raw/episodes.jsonl"
+      ],
+      "results": "experiments/TopoSafe-Delta-MatchedCommunication-v0.1/analysis/results.json",
+      "results_file_exists": true,
+      "row_count_matches": true
+    },
+    {
+      "expected_rows": 2880,
+      "glob": "experiments/TopoSafe-Delta-FreeRunningCommunication-v0.3/models/*/raw/episodes.jsonl",
+      "id": "free_running_communication_v0_3",
+      "observed_rows": 2880,
+      "passed": true,
+      "raw_files": [
+        "experiments/TopoSafe-Delta-FreeRunningCommunication-v0.3/models/claude-sonnet-5/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-FreeRunningCommunication-v0.3/models/gpt-5.4/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-FreeRunningCommunication-v0.3/models/llama-4-maverick/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-FreeRunningCommunication-v0.3/models/nemotron-3-super-120b/raw/episodes.jsonl"
+      ],
+      "results": "experiments/TopoSafe-Delta-FreeRunningCommunication-v0.3/analysis/results.json",
+      "results_file_exists": true,
+      "row_count_matches": true
+    },
+    {
+      "expected_rows": 2880,
+      "glob": "experiments/TopoSafe-Delta-FreeRunningScheduleReplication-v0.1/models/*/raw/episodes.jsonl",
+      "id": "free_running_schedule_replication",
+      "observed_rows": 2880,
+      "passed": true,
+      "raw_files": [
+        "experiments/TopoSafe-Delta-FreeRunningScheduleReplication-v0.1/models/claude-sonnet-5/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-FreeRunningScheduleReplication-v0.1/models/gpt-5.4/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-FreeRunningScheduleReplication-v0.1/models/llama-4-maverick/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-FreeRunningScheduleReplication-v0.1/models/nemotron-3-super-120b/raw/episodes.jsonl"
+      ],
+      "results": "experiments/TopoSafe-Delta-FreeRunningScheduleReplication-v0.1/analysis/results.json",
+      "results_file_exists": true,
+      "row_count_matches": true
+    },
+    {
+      "expected_rows": 1200,
+      "glob": "experiments/TopoSafe-Delta-AuthorityMechanismAblations-v0.1/models/*/raw/episodes.jsonl",
+      "id": "authority_mechanism_ablations",
+      "observed_rows": 1200,
+      "passed": true,
+      "raw_files": [
+        "experiments/TopoSafe-Delta-AuthorityMechanismAblations-v0.1/models/claude-sonnet-5/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-AuthorityMechanismAblations-v0.1/models/gpt-5.4/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-AuthorityMechanismAblations-v0.1/models/llama-4-maverick/raw/episodes.jsonl",
+        "experiments/TopoSafe-Delta-AuthorityMechanismAblations-v0.1/models/nemotron-3-super-120b/raw/episodes.jsonl"
+      ],
+      "results": "experiments/TopoSafe-Delta-AuthorityMechanismAblations-v0.1/analysis/results.json",
+      "results_file_exists": true,
+      "row_count_matches": true
+    }
+  ],
+  "historical_formal_call_total": 66090,
+  "note": "This script verifies checked-in row inventories and result presence. The isolated analyzer rerun is documented separately in EXISTING_EVIDENCE_AUDIT.md.",
+  "status": "existing_evidence_inventory_verified"
+}

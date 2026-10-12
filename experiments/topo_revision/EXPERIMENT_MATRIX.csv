@@ -1,0 +1,10 @@
+experiment,stage,base_tasks,domains,treatments_per_task,states,models,executor_calls,intermediate_calls,total_calls,confirmatory_status_under_default_budget
+E1_provenance,pilot,4,4,5,2,4,160,0,160,pilot_only
+E1_provenance,formal,60,4,5,2,4,2400,0,2400,planned_complete
+E2_authority_cut,pilot,4,4,12,1,4,192,0,192,pilot_treatments
+E2_authority_cut_controls,pilot,2,2,2,1,4,16,0,16,pilot_controls
+E2_authority_cut,formal,80,4,12,1,4,3840,0,3840,planned_complete
+E2_authority_cut_controls,formal,8,4,2,1,4,64,0,64,planned_complete
+E3_workflow,pilot,3,3,24,1,4,288,480,768,pilot_only
+E3_workflow,formal,48,3,24,1,4,4608,7680,12288,requires_higher_call_cap_after_E1_E2
+E4_defense,not_scheduled,12,3,4,2,4,384,0,384,not_allocated

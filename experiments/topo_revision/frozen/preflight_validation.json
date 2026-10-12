@@ -1,0 +1,104 @@
+{
+  "case_validation": {
+    "E1": {
+      "cases_per_model": 600,
+      "errors": [],
+      "experiment": "E1",
+      "passed": true,
+      "tasks": 60,
+      "treatment_counts": {
+        "P0": 120,
+        "P1": 120,
+        "P2": 120,
+        "P3": 120,
+        "P4": 120
+      }
+    },
+    "E2": {
+      "control_cases_per_model": 16,
+      "control_tasks": 8,
+      "errors": [],
+      "experiment": "E2",
+      "passed": true,
+      "qualified_sets": {
+        "A1": [
+          [
+            "principal-1"
+          ]
+        ],
+        "A2": [
+          [
+            "principal-1",
+            "principal-2"
+          ]
+        ],
+        "A3": [
+          [
+            "principal-1",
+            "principal-2"
+          ],
+          [
+            "principal-1",
+            "principal-3"
+          ],
+          [
+            "principal-2",
+            "principal-3"
+          ],
+          [
+            "principal-1",
+            "principal-2",
+            "principal-3"
+          ]
+        ]
+      },
+      "treatment_cases_per_model": 960,
+      "treatment_tasks": 80
+    },
+    "E3": {
+      "assigned_calls_per_model": 3072,
+      "cases_per_model": 1152,
+      "errors": [],
+      "experiment": "E3",
+      "passed": true,
+      "tasks": 48,
+      "topology_forward_calls": {
+        "C1": 1,
+        "C2": 2,
+        "C3": 2
+      }
+    }
+  },
+  "errors": [],
+  "generated_at": "2026-10-12T22:38:04.377734+00:00",
+  "passed": true,
+  "pilot_task_ids": {
+    "E1": [
+      "trev-e1-administrative_transition-00",
+      "trev-e1-privileged_access-00",
+      "trev-e1-reimbursement-00",
+      "trev-e1-sensitive_release-00"
+    ],
+    "E2": [
+      "trev-e2-administrative_transition-00",
+      "trev-e2-privileged_access-00",
+      "trev-e2-reimbursement-00",
+      "trev-e2-sensitive_release-00"
+    ],
+    "E2_controls": [
+      "trev-e2-administrative_transition-00",
+      "trev-e2-privileged_access-00"
+    ],
+    "E3": [
+      "trev-e3-expense_reimbursement-00",
+      "trev-e3-privileged_access-00",
+      "trev-e3-sensitive_document_release-00"
+    ]
+  },
+  "status": "automatic_preflight_passed",
+  "task_validation": {
+    "E1": [],
+    "E2": [],
+    "E3": []
+  }
+}

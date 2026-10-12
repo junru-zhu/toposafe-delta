@@ -1,0 +1,35 @@
+{
+  "default_call_plan": {
+    "all_experiments_total": 19728,
+    "combined": 7440,
+    "default_cap": 15000,
+    "formal_E1_E2": 6304,
+    "formal_E3_additional": 12288,
+    "pilot_all": 1136
+  },
+  "formal": {
+    "E1": {
+      "assigned_calls": 2400,
+      "base_tasks": 60,
+      "executor_episodes": 2400
+    },
+    "E2": {
+      "assigned_calls": 3904,
+      "base_tasks": 80,
+      "executor_episodes": 3904
+    },
+    "E3": {
+      "assigned_calls": 12288,
+      "base_tasks": 48,
+      "executor_episodes": 4608
+    }
+  },
+  "generated_at": "2026-10-12T22:38:04.379383+00:00",
+  "pilot": {
+    "E1_assigned_calls": 160,
+    "E2_assigned_calls": 208,
+    "E3_assigned_calls": 768,
+    "total_assigned_calls": 1136
+  },
+  "status": "automatic_preflight_passed"
+}
