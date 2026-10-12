@@ -1,0 +1,24 @@
+{
+  "api_attempts_including_resume_history": 3659,
+  "assigned_model_calls": 3638,
+  "conservative_cost_usd": 3.930782928,
+  "estimated_cost_usd": 3.27565244,
+  "experiment": "E1",
+  "generated_at": "2026-10-12T23:07:17.240817+00:00",
+  "max_calls": 15000,
+  "max_spend_usd": 250.0,
+  "missing_jobs": 2,
+  "model_call_counts": {
+    "claude-sonnet-5": 2
+  },
+  "prospective_assigned_calls": 2,
+  "prospective_conservative_cost_usd": 0.012672,
+  "realized_model_calls_including_resume_history": 3626,
+  "rows": 3278,
+  "seed": 20271012,
+  "selected_models": [
+    "claude-sonnet-5"
+  ],
+  "stage": "formal",
+  "workers": 5
+}

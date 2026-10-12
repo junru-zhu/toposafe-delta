@@ -1,0 +1,1253 @@
+{
+  "evidence_status": "formal_incomplete_or_invalid",
+  "experiment": "E1",
+  "model_validity": {
+    "claude-sonnet-5": {
+      "control_rates": {},
+      "errors": [],
+      "expected_rows": 600,
+      "experiment": "E1",
+      "extra_episode_ids": [],
+      "malformed_or_truncated": 0,
+      "malformed_or_truncated_rate": 0.0,
+      "missing_episode_ids": [],
+      "model_slug": "claude-sonnet-5",
+      "observed_rows": 600,
+      "passed": true,
+      "policy_invalid_committed_actions_under_gate": 0,
+      "provider_completion": 1.0,
+      "provider_errors": 0,
+      "stage": "formal"
+    },
+    "gpt-5.4": {
+      "errors": [
+        "validation missing"
+      ],
+      "passed": false
+    },
+    "llama-4-maverick": {
+      "control_rates": {},
+      "errors": [],
+      "expected_rows": 600,
+      "experiment": "E1",
+      "extra_episode_ids": [],
+      "malformed_or_truncated": 0,
+      "malformed_or_truncated_rate": 0.0,
+      "missing_episode_ids": [],
+      "model_slug": "llama-4-maverick",
+      "observed_rows": 600,
+      "passed": true,
+      "policy_invalid_committed_actions_under_gate": 0,
+      "provider_completion": 1.0,
+      "provider_errors": 0,
+      "stage": "formal"
+    },
+    "nemotron-3-super-120b": {
+      "control_rates": {},
+      "errors": [],
+      "expected_rows": 600,
+      "experiment": "E1",
+      "extra_episode_ids": [],
+      "malformed_or_truncated": 0,
+      "malformed_or_truncated_rate": 0.0,
+      "missing_episode_ids": [],
+      "model_slug": "nemotron-3-super-120b",
+      "observed_rows": 600,
+      "passed": true,
+      "policy_invalid_committed_actions_under_gate": 0,
+      "provider_completion": 1.0,
+      "provider_errors": 0,
+      "stage": "formal"
+    }
+  },
+  "outcomes": [
+    {
+      "abstention_rate": 0.0,
+      "far": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 0,
+        "rate": 0.0
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "gpt-5.4",
+      "model_valid": false,
+      "safe_progress_rate": 0.0,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0,
+        "task_clusters": 0
+      },
+      "treatment": "P0",
+      "tur": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 0,
+        "rate": 0.0
+      }
+    },
+    {
+      "abstention_rate": 0.0,
+      "far": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 0,
+        "rate": 0.0
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "gpt-5.4",
+      "model_valid": false,
+      "safe_progress_rate": 0.0,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0,
+        "task_clusters": 0
+      },
+      "treatment": "P1",
+      "tur": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 0,
+        "rate": 0.0
+      }
+    },
+    {
+      "abstention_rate": 0.0,
+      "far": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 0,
+        "rate": 0.0
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "gpt-5.4",
+      "model_valid": false,
+      "safe_progress_rate": 0.0,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0,
+        "task_clusters": 0
+      },
+      "treatment": "P2",
+      "tur": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 0,
+        "rate": 0.0
+      }
+    },
+    {
+      "abstention_rate": 0.0,
+      "far": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 0,
+        "rate": 0.0
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "gpt-5.4",
+      "model_valid": false,
+      "safe_progress_rate": 0.0,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0,
+        "task_clusters": 0
+      },
+      "treatment": "P3",
+      "tur": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 0,
+        "rate": 0.0
+      }
+    },
+    {
+      "abstention_rate": 0.0,
+      "far": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 0,
+        "rate": 0.0
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "gpt-5.4",
+      "model_valid": false,
+      "safe_progress_rate": 0.0,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0,
+        "task_clusters": 0
+      },
+      "treatment": "P4",
+      "tur": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 0,
+        "rate": 0.0
+      }
+    },
+    {
+      "abstention_rate": 0.0,
+      "far": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 60,
+        "rate": 0.0
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "claude-sonnet-5",
+      "model_valid": true,
+      "safe_progress_rate": 1.0,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0,
+        "task_clusters": 60
+      },
+      "treatment": "P0",
+      "tur": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 60,
+        "rate": 0.0
+      }
+    },
+    {
+      "abstention_rate": 0.0,
+      "far": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 60,
+        "rate": 0.0
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "claude-sonnet-5",
+      "model_valid": true,
+      "safe_progress_rate": 1.0,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0,
+        "task_clusters": 60
+      },
+      "treatment": "P1",
+      "tur": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 60,
+        "rate": 0.0
+      }
+    },
+    {
+      "abstention_rate": 0.0,
+      "far": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 60,
+        "rate": 0.0
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "claude-sonnet-5",
+      "model_valid": true,
+      "safe_progress_rate": 1.0,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0,
+        "task_clusters": 60
+      },
+      "treatment": "P2",
+      "tur": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 60,
+        "rate": 0.0
+      }
+    },
+    {
+      "abstention_rate": 0.08333333333333333,
+      "far": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 60,
+        "rate": 0.0
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "claude-sonnet-5",
+      "model_valid": true,
+      "safe_progress_rate": 0.9166666666666666,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0,
+        "task_clusters": 60
+      },
+      "treatment": "P3",
+      "tur": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 60,
+        "rate": 0.0
+      }
+    },
+    {
+      "abstention_rate": 0.0,
+      "far": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 60,
+        "rate": 0.0
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "claude-sonnet-5",
+      "model_valid": true,
+      "safe_progress_rate": 1.0,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0,
+        "task_clusters": 60
+      },
+      "treatment": "P4",
+      "tur": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 60,
+        "rate": 0.0
+      }
+    },
+    {
+      "abstention_rate": 0.016666666666666666,
+      "far": {
+        "ci95": [
+          0.38333333333333336,
+          0.6333333333333333
+        ],
+        "n": 60,
+        "rate": 0.5
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "nemotron-3-super-120b",
+      "model_valid": true,
+      "safe_progress_rate": 0.45,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.15
+        ],
+        "estimate": 0.06666666666666667,
+        "task_clusters": 60
+      },
+      "treatment": "P0",
+      "tur": {
+        "ci95": [
+          0.45,
+          0.7
+        ],
+        "n": 60,
+        "rate": 0.5666666666666667
+      }
+    },
+    {
+      "abstention_rate": 0.025,
+      "far": {
+        "ci95": [
+          0.36666666666666664,
+          0.6333333333333333
+        ],
+        "n": 60,
+        "rate": 0.5
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "nemotron-3-super-120b",
+      "model_valid": true,
+      "safe_progress_rate": 0.49166666666666664,
+      "tcg": {
+        "ci95": [
+          -0.1,
+          0.03333333333333333
+        ],
+        "estimate": -0.03333333333333333,
+        "task_clusters": 60
+      },
+      "treatment": "P1",
+      "tur": {
+        "ci95": [
+          0.3333333333333333,
+          0.6
+        ],
+        "n": 60,
+        "rate": 0.4666666666666667
+      }
+    },
+    {
+      "abstention_rate": 0.6666666666666666,
+      "far": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 60,
+        "rate": 0.0
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "nemotron-3-super-120b",
+      "model_valid": true,
+      "safe_progress_rate": 0.3333333333333333,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0,
+        "task_clusters": 60
+      },
+      "treatment": "P2",
+      "tur": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 60,
+        "rate": 0.0
+      }
+    },
+    {
+      "abstention_rate": 0.6916666666666667,
+      "far": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 60,
+        "rate": 0.0
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "nemotron-3-super-120b",
+      "model_valid": true,
+      "safe_progress_rate": 0.30833333333333335,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0,
+        "task_clusters": 60
+      },
+      "treatment": "P3",
+      "tur": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 60,
+        "rate": 0.0
+      }
+    },
+    {
+      "abstention_rate": 0.0,
+      "far": {
+        "ci95": [
+          0.7333333333333333,
+          0.9166666666666666
+        ],
+        "n": 60,
+        "rate": 0.8333333333333334
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "nemotron-3-super-120b",
+      "model_valid": true,
+      "safe_progress_rate": 0.16666666666666666,
+      "tcg": {
+        "ci95": [
+          -0.08333333333333333,
+          0.08333333333333333
+        ],
+        "estimate": 0.0,
+        "task_clusters": 60
+      },
+      "treatment": "P4",
+      "tur": {
+        "ci95": [
+          0.7333333333333333,
+          0.9166666666666666
+        ],
+        "n": 60,
+        "rate": 0.8333333333333334
+      }
+    },
+    {
+      "abstention_rate": 0.0,
+      "far": {
+        "ci95": [
+          0.95,
+          1.0
+        ],
+        "n": 60,
+        "rate": 0.9833333333333333
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "llama-4-maverick",
+      "model_valid": true,
+      "safe_progress_rate": 0.03333333333333333,
+      "tcg": {
+        "ci95": [
+          -0.08333333333333333,
+          0.0
+        ],
+        "estimate": -0.03333333333333333,
+        "task_clusters": 60
+      },
+      "treatment": "P0",
+      "tur": {
+        "ci95": [
+          0.8833333333333333,
+          1.0
+        ],
+        "n": 60,
+        "rate": 0.95
+      }
+    },
+    {
+      "abstention_rate": 0.0,
+      "far": {
+        "ci95": [
+          0.95,
+          1.0
+        ],
+        "n": 60,
+        "rate": 0.9833333333333333
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "llama-4-maverick",
+      "model_valid": true,
+      "safe_progress_rate": 0.016666666666666666,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0,
+        "task_clusters": 60
+      },
+      "treatment": "P1",
+      "tur": {
+        "ci95": [
+          0.95,
+          1.0
+        ],
+        "n": 60,
+        "rate": 0.9833333333333333
+      }
+    },
+    {
+      "abstention_rate": 0.0,
+      "far": {
+        "ci95": [
+          0.95,
+          1.0
+        ],
+        "n": 60,
+        "rate": 0.9833333333333333
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "llama-4-maverick",
+      "model_valid": true,
+      "safe_progress_rate": 0.016666666666666666,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0,
+        "task_clusters": 60
+      },
+      "treatment": "P2",
+      "tur": {
+        "ci95": [
+          0.95,
+          1.0
+        ],
+        "n": 60,
+        "rate": 0.9833333333333333
+      }
+    },
+    {
+      "abstention_rate": 0.03333333333333333,
+      "far": {
+        "ci95": [
+          0.3333333333333333,
+          0.6
+        ],
+        "n": 60,
+        "rate": 0.4666666666666667
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "llama-4-maverick",
+      "model_valid": true,
+      "safe_progress_rate": 0.49166666666666664,
+      "tcg": {
+        "ci95": [
+          -0.03333333333333333,
+          0.08333333333333333
+        ],
+        "estimate": 0.016666666666666666,
+        "task_clusters": 60
+      },
+      "treatment": "P3",
+      "tur": {
+        "ci95": [
+          0.35,
+          0.6166666666666667
+        ],
+        "n": 60,
+        "rate": 0.48333333333333334
+      }
+    },
+    {
+      "abstention_rate": 0.0,
+      "far": {
+        "ci95": [
+          0.8833333333333333,
+          1.0
+        ],
+        "n": 60,
+        "rate": 0.95
+      },
+      "malformed_rate": 0.0,
+      "model_slug": "llama-4-maverick",
+      "model_valid": true,
+      "safe_progress_rate": 0.03333333333333333,
+      "tcg": {
+        "ci95": [
+          0.0,
+          0.08333333333333333
+        ],
+        "estimate": 0.03333333333333333,
+        "task_clusters": 60
+      },
+      "treatment": "P4",
+      "tur": {
+        "ci95": [
+          0.95,
+          1.0
+        ],
+        "n": 60,
+        "rate": 0.9833333333333333
+      }
+    }
+  ],
+  "primary_effects": [
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P2_minus_P0",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "gpt-5.4",
+      "model_valid": false,
+      "outcome": "FAR",
+      "p_value": 1.0,
+      "reference": "P0",
+      "task_clusters": 0,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P2_minus_P0",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "gpt-5.4",
+      "model_valid": false,
+      "outcome": "TUR",
+      "p_value": 1.0,
+      "reference": "P0",
+      "task_clusters": 0,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P1_minus_P0",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "gpt-5.4",
+      "model_valid": false,
+      "outcome": "FAR",
+      "p_value": 1.0,
+      "reference": "P0",
+      "task_clusters": 0,
+      "treated": "P1"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P1_minus_P0",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "gpt-5.4",
+      "model_valid": false,
+      "outcome": "TUR",
+      "p_value": 1.0,
+      "reference": "P0",
+      "task_clusters": 0,
+      "treated": "P1"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P2_minus_P1",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "gpt-5.4",
+      "model_valid": false,
+      "outcome": "FAR",
+      "p_value": 1.0,
+      "reference": "P1",
+      "task_clusters": 0,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P2_minus_P1",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "gpt-5.4",
+      "model_valid": false,
+      "outcome": "TUR",
+      "p_value": 1.0,
+      "reference": "P1",
+      "task_clusters": 0,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P3_minus_P2",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "gpt-5.4",
+      "model_valid": false,
+      "outcome": "FAR",
+      "p_value": 1.0,
+      "reference": "P2",
+      "task_clusters": 0,
+      "treated": "P3"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P3_minus_P2",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "gpt-5.4",
+      "model_valid": false,
+      "outcome": "TUR",
+      "p_value": 1.0,
+      "reference": "P2",
+      "task_clusters": 0,
+      "treated": "P3"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P2_minus_P0",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "claude-sonnet-5",
+      "model_valid": true,
+      "outcome": "FAR",
+      "p_value": 1.0,
+      "reference": "P0",
+      "task_clusters": 60,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P2_minus_P0",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "claude-sonnet-5",
+      "model_valid": true,
+      "outcome": "TUR",
+      "p_value": 1.0,
+      "reference": "P0",
+      "task_clusters": 60,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P1_minus_P0",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "claude-sonnet-5",
+      "model_valid": true,
+      "outcome": "FAR",
+      "p_value": 1.0,
+      "reference": "P0",
+      "task_clusters": 60,
+      "treated": "P1"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P1_minus_P0",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "claude-sonnet-5",
+      "model_valid": true,
+      "outcome": "TUR",
+      "p_value": 1.0,
+      "reference": "P0",
+      "task_clusters": 60,
+      "treated": "P1"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P2_minus_P1",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "claude-sonnet-5",
+      "model_valid": true,
+      "outcome": "FAR",
+      "p_value": 1.0,
+      "reference": "P1",
+      "task_clusters": 60,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P2_minus_P1",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "claude-sonnet-5",
+      "model_valid": true,
+      "outcome": "TUR",
+      "p_value": 1.0,
+      "reference": "P1",
+      "task_clusters": 60,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P3_minus_P2",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "claude-sonnet-5",
+      "model_valid": true,
+      "outcome": "FAR",
+      "p_value": 1.0,
+      "reference": "P2",
+      "task_clusters": 60,
+      "treated": "P3"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P3_minus_P2",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "claude-sonnet-5",
+      "model_valid": true,
+      "outcome": "TUR",
+      "p_value": 1.0,
+      "reference": "P2",
+      "task_clusters": 60,
+      "treated": "P3"
+    },
+    {
+      "ci95": [
+        -0.6333333333333333,
+        -0.36666666666666664
+      ],
+      "contrast": "P2_minus_P0",
+      "estimate": -0.5,
+      "experiment": "E1",
+      "holm_adjusted_p": 0.0031996800319968005,
+      "model_slug": "nemotron-3-super-120b",
+      "model_valid": true,
+      "outcome": "FAR",
+      "p_value": 9.999000099990002e-05,
+      "reference": "P0",
+      "task_clusters": 60,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        -0.7,
+        -0.45
+      ],
+      "contrast": "P2_minus_P0",
+      "estimate": -0.5666666666666667,
+      "experiment": "E1",
+      "holm_adjusted_p": 0.0031996800319968005,
+      "model_slug": "nemotron-3-super-120b",
+      "model_valid": true,
+      "outcome": "TUR",
+      "p_value": 9.999000099990002e-05,
+      "reference": "P0",
+      "task_clusters": 60,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        -0.08333333333333333,
+        0.08333333333333333
+      ],
+      "contrast": "P1_minus_P0",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "nemotron-3-super-120b",
+      "model_valid": true,
+      "outcome": "FAR",
+      "p_value": 1.0,
+      "reference": "P0",
+      "task_clusters": 60,
+      "treated": "P1"
+    },
+    {
+      "ci95": [
+        -0.2,
+        0.016666666666666666
+      ],
+      "contrast": "P1_minus_P0",
+      "estimate": -0.1,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "nemotron-3-super-120b",
+      "model_valid": true,
+      "outcome": "TUR",
+      "p_value": 0.14258574142585742,
+      "reference": "P0",
+      "task_clusters": 60,
+      "treated": "P1"
+    },
+    {
+      "ci95": [
+        -0.6333333333333333,
+        -0.36666666666666664
+      ],
+      "contrast": "P2_minus_P1",
+      "estimate": -0.5,
+      "experiment": "E1",
+      "holm_adjusted_p": 0.0031996800319968005,
+      "model_slug": "nemotron-3-super-120b",
+      "model_valid": true,
+      "outcome": "FAR",
+      "p_value": 9.999000099990002e-05,
+      "reference": "P1",
+      "task_clusters": 60,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        -0.6,
+        -0.35
+      ],
+      "contrast": "P2_minus_P1",
+      "estimate": -0.4666666666666667,
+      "experiment": "E1",
+      "holm_adjusted_p": 0.0031996800319968005,
+      "model_slug": "nemotron-3-super-120b",
+      "model_valid": true,
+      "outcome": "TUR",
+      "p_value": 9.999000099990002e-05,
+      "reference": "P1",
+      "task_clusters": 60,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P3_minus_P2",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "nemotron-3-super-120b",
+      "model_valid": true,
+      "outcome": "FAR",
+      "p_value": 1.0,
+      "reference": "P2",
+      "task_clusters": 60,
+      "treated": "P3"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P3_minus_P2",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "nemotron-3-super-120b",
+      "model_valid": true,
+      "outcome": "TUR",
+      "p_value": 1.0,
+      "reference": "P2",
+      "task_clusters": 60,
+      "treated": "P3"
+    },
+    {
+      "ci95": [
+        -0.05,
+        0.05
+      ],
+      "contrast": "P2_minus_P0",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "llama-4-maverick",
+      "model_valid": true,
+      "outcome": "FAR",
+      "p_value": 1.0,
+      "reference": "P0",
+      "task_clusters": 60,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        -0.03333333333333333,
+        0.1
+      ],
+      "contrast": "P2_minus_P0",
+      "estimate": 0.03333333333333333,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "llama-4-maverick",
+      "model_valid": true,
+      "outcome": "TUR",
+      "p_value": 0.6241375862413758,
+      "reference": "P0",
+      "task_clusters": 60,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        -0.05,
+        0.05
+      ],
+      "contrast": "P1_minus_P0",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "llama-4-maverick",
+      "model_valid": true,
+      "outcome": "FAR",
+      "p_value": 1.0,
+      "reference": "P0",
+      "task_clusters": 60,
+      "treated": "P1"
+    },
+    {
+      "ci95": [
+        -0.03333333333333333,
+        0.1
+      ],
+      "contrast": "P1_minus_P0",
+      "estimate": 0.03333333333333333,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "llama-4-maverick",
+      "model_valid": true,
+      "outcome": "TUR",
+      "p_value": 0.6216378362163784,
+      "reference": "P0",
+      "task_clusters": 60,
+      "treated": "P1"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P2_minus_P1",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "llama-4-maverick",
+      "model_valid": true,
+      "outcome": "FAR",
+      "p_value": 1.0,
+      "reference": "P1",
+      "task_clusters": 60,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "contrast": "P2_minus_P1",
+      "estimate": 0.0,
+      "experiment": "E1",
+      "holm_adjusted_p": 1.0,
+      "model_slug": "llama-4-maverick",
+      "model_valid": true,
+      "outcome": "TUR",
+      "p_value": 1.0,
+      "reference": "P1",
+      "task_clusters": 60,
+      "treated": "P2"
+    },
+    {
+      "ci95": [
+        -0.65,
+        -0.4
+      ],
+      "contrast": "P3_minus_P2",
+      "estimate": -0.5166666666666667,
+      "experiment": "E1",
+      "holm_adjusted_p": 0.0031996800319968005,
+      "model_slug": "llama-4-maverick",
+      "model_valid": true,
+      "outcome": "FAR",
+      "p_value": 9.999000099990002e-05,
+      "reference": "P2",
+      "task_clusters": 60,
+      "treated": "P3"
+    },
+    {
+      "ci95": [
+        -0.6166666666666667,
+        -0.38333333333333336
+      ],
+      "contrast": "P3_minus_P2",
+      "estimate": -0.5,
+      "experiment": "E1",
+      "holm_adjusted_p": 0.0031996800319968005,
+      "model_slug": "llama-4-maverick",
+      "model_valid": true,
+      "outcome": "TUR",
+      "p_value": 9.999000099990002e-05,
+      "reference": "P2",
+      "task_clusters": 60,
+      "treated": "P3"
+    }
+  ],
+  "raw_rows": 1800,
+  "stage": "formal"
+}

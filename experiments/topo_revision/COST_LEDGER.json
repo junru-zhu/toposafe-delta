@@ -1,0 +1,9 @@
+{
+  "api_attempts_including_resume_history": 3661,
+  "assigned_model_calls": 3640,
+  "conservative_cost_usd": 3.937924128,
+  "estimated_cost_usd": 3.28160344,
+  "generated_at": "2026-10-12T23:07:19.534438+00:00",
+  "realized_model_calls_including_resume_history": 3628,
+  "rows": 3278
+}

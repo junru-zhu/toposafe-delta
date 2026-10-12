@@ -1,0 +1,17 @@
+{
+  "control_rates": {},
+  "errors": [],
+  "expected_rows": 72,
+  "experiment": "E3",
+  "extra_episode_ids": [],
+  "malformed_or_truncated": 0,
+  "malformed_or_truncated_rate": 0.0,
+  "missing_episode_ids": [],
+  "model_slug": "claude-sonnet-5",
+  "observed_rows": 72,
+  "passed": true,
+  "policy_invalid_committed_actions_under_gate": 0,
+  "provider_completion": 1.0,
+  "provider_errors": 0,
+  "stage": "pilot"
+}

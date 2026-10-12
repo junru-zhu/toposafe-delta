@@ -1,0 +1,137 @@
+{
+  "audited_at": "2026-10-12T23:15:53.442607+00:00",
+  "e1_formal": {
+    "claude-sonnet-5": true,
+    "gpt-5.4": false,
+    "llama-4-maverick": true,
+    "nemotron-3-super-120b": true
+  },
+  "e2_formal": {
+    "claude-sonnet-5": false,
+    "gpt-5.4": false,
+    "llama-4-maverick": true,
+    "nemotron-3-super-120b": false
+  },
+  "e2_pilot": {
+    "claude-sonnet-5": {
+      "control_rates": {
+        "control_false_safe": 1.0,
+        "control_true_protected": 0.0
+      },
+      "errors": [
+        "control_true_protected rate 0.000 below 0.90"
+      ],
+      "expected_rows": 52,
+      "experiment": "E2",
+      "extra_episode_ids": [],
+      "malformed_or_truncated": 0,
+      "malformed_or_truncated_rate": 0.0,
+      "missing_episode_ids": [],
+      "model_slug": "claude-sonnet-5",
+      "observed_rows": 52,
+      "passed": false,
+      "policy_invalid_committed_actions_under_gate": 0,
+      "provider_completion": 1.0,
+      "provider_errors": 0,
+      "stage": "pilot"
+    },
+    "gpt-5.4": {
+      "errors": [
+        "NOT RUN: validation file absent"
+      ],
+      "expected_rows": null,
+      "experiment": "E2",
+      "model_slug": "gpt-5.4",
+      "observed_rows": 0,
+      "passed": false,
+      "provider_errors": 0,
+      "stage": "pilot"
+    },
+    "llama-4-maverick": {
+      "control_rates": {
+        "control_false_safe": 1.0,
+        "control_true_protected": 1.0
+      },
+      "errors": [],
+      "expected_rows": 52,
+      "experiment": "E2",
+      "extra_episode_ids": [],
+      "malformed_or_truncated": 0,
+      "malformed_or_truncated_rate": 0.0,
+      "missing_episode_ids": [],
+      "model_slug": "llama-4-maverick",
+      "observed_rows": 52,
+      "passed": true,
+      "policy_invalid_committed_actions_under_gate": 0,
+      "provider_completion": 1.0,
+      "provider_errors": 0,
+      "stage": "pilot"
+    },
+    "nemotron-3-super-120b": {
+      "control_rates": {
+        "control_false_safe": 0.5,
+        "control_true_protected": 1.0
+      },
+      "errors": [
+        "control_false_safe rate 0.500 below 0.90"
+      ],
+      "expected_rows": 52,
+      "experiment": "E2",
+      "extra_episode_ids": [],
+      "malformed_or_truncated": 0,
+      "malformed_or_truncated_rate": 0.0,
+      "missing_episode_ids": [],
+      "model_slug": "nemotron-3-super-120b",
+      "observed_rows": 52,
+      "passed": false,
+      "policy_invalid_committed_actions_under_gate": 0,
+      "provider_completion": 1.0,
+      "provider_errors": 0,
+      "stage": "pilot"
+    }
+  },
+  "e3_pilot_forward_schema": {
+    "claude-sonnet-5": {
+      "adjudicated_status": "invalid_forward_schema_gate",
+      "episodes": 72,
+      "explicit_drops": 8,
+      "intermediate_calls": 120,
+      "model_slug": "claude-sonnet-5",
+      "strict_forward_schema_gate_passed": false,
+      "technical_failure_rate": 0.7916666666666666,
+      "technical_failures": 95
+    },
+    "gpt-5.4": {
+      "adjudicated_status": "invalid_forward_schema_gate",
+      "episodes": 0,
+      "explicit_drops": 0,
+      "intermediate_calls": 0,
+      "model_slug": "gpt-5.4",
+      "strict_forward_schema_gate_passed": false,
+      "technical_failure_rate": 1.0,
+      "technical_failures": 0
+    },
+    "llama-4-maverick": {
+      "adjudicated_status": "invalid_forward_schema_gate",
+      "episodes": 72,
+      "explicit_drops": 1,
+      "intermediate_calls": 120,
+      "model_slug": "llama-4-maverick",
+      "strict_forward_schema_gate_passed": false,
+      "technical_failure_rate": 0.025,
+      "technical_failures": 3
+    },
+    "nemotron-3-super-120b": {
+      "adjudicated_status": "clean_pilot_block",
+      "episodes": 72,
+      "explicit_drops": 0,
+      "intermediate_calls": 120,
+      "model_slug": "nemotron-3-super-120b",
+      "strict_forward_schema_gate_passed": true,
+      "technical_failure_rate": 0.0,
+      "technical_failures": 0
+    }
+  },
+  "integrity_finding": "The original generic E3 validator did not aggregate intermediate forwarder schema/truncation failures. The frozen protocol requires no schema mismatch, so the post-run adjudication treats only the zero-failure Nemotron block as a clean E3 pilot block. Raw rows and original validation files remain unchanged.",
+  "status": "post_run_integrity_audit_complete"
+}

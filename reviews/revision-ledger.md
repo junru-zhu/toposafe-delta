@@ -31,3 +31,24 @@
 
 Validation details are recorded in
 `reviews/toposafe-claim-integrity-audit.md`.
+
+## 2026-10-12: TopoSafe revision experiments
+
+- Audited the existing paper evidence in a clean clone and preserved all
+  historical frozen experiment directories.
+- Added and froze TopoSafe-Delta-Revision-v1.0 with 60 E1 tasks, 80 E2 tasks,
+  48 E3 tasks, deterministic proof logic, validity gates, analysis, and
+  plotting code.
+- Completed E1 formal runs for Claude Sonnet 5, Nemotron 3 Super 120B, and
+  Llama 4 Maverick. GPT-5.4 failed the pilot endpoint gate and was not promoted.
+- Observed no uniform positive verified-provenance effect; retained the
+  contradictory and model-heterogeneous outcomes.
+- Completed the valid Llama E2 formal block and preserved failed Claude and
+  Nemotron pilot controls as diagnostic evidence.
+- Implemented and piloted E3, then invalidated Claude and Llama pilot evidence
+  after discovering intermediate forwarder schema failures omitted by the
+  original generic validator. Only Nemotron remains a clean pilot block.
+- Generated raw-data-derived CSV/LaTeX tables, PDF/PNG figures, run inventory,
+  cost ledger, post-run integrity audit, and final reviewer-style report.
+- Did not edit the evidence-frozen manuscript, claim a four-model revision
+  result, run E4, merge the experimental branch, or make the repository public.

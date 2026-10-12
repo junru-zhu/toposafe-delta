@@ -1,0 +1,24 @@
+{
+  "api_attempts_including_resume_history": 2683,
+  "assigned_model_calls": 2662,
+  "conservative_cost_usd": 3.712922208,
+  "estimated_cost_usd": 3.09410184,
+  "experiment": "E2",
+  "generated_at": "2026-10-12T23:04:47.497867+00:00",
+  "max_calls": 15000,
+  "max_spend_usd": 250.0,
+  "missing_jobs": 976,
+  "model_call_counts": {
+    "llama-4-maverick": 976
+  },
+  "prospective_assigned_calls": 976,
+  "prospective_conservative_cost_usd": 0.64228608,
+  "realized_model_calls_including_resume_history": 2650,
+  "rows": 2302,
+  "seed": 20271012,
+  "selected_models": [
+    "llama-4-maverick"
+  ],
+  "stage": "formal",
+  "workers": 5
+}

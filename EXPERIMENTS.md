@@ -28,6 +28,27 @@ identities.
 | `TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1R2-GPTTechnicalCompletion` | Timeout-only GPT technical amendment; no formal GPT block |
 | `TopoSafe-Delta-ExecutionTopologyConfirmatory-v0.1S-ThreeModelSensitivity` | Zero-call three-model sensitivity; not confirmatory |
 
+## Topo revision package
+
+All artifacts below live under `experiments/topo_revision/`. The protocol and
+task package were frozen before model outcomes.
+
+| Component | Status |
+| --- | --- |
+| `PROTOCOL.md` and `manifest.json` | Frozen revision v1.0 |
+| E1 provenance pilot | Claude, Nemotron, and Llama valid; GPT incomplete |
+| E1 provenance formal | Three valid 600-row model blocks; GPT NOT RUN |
+| E2 authority-cut pilot | Llama valid; Claude and Nemotron failed controls; GPT NOT RUN |
+| E2 authority-cut formal | One valid 976-row Llama block |
+| E3 realistic workflow pilot | Nemotron clean after strict audit; Claude/Llama invalid forwarder schema; GPT NOT RUN |
+| E3 realistic workflow formal | NOT RUN |
+| E4 defense comparison | NOT RUN |
+| `FINAL_RESEARCH_REPORT.md` | Complete evidence and paper-impact assessment |
+
+The package includes raw responses, intermediate traces, deterministic proof
+records, validation files, task-cluster analyses, PDF/PNG figures, CSV/LaTeX
+tables, and call/cost ledgers.
+
 ## Calibration and historical packages
 
 - `TopoSafe-Delta-TopologyPilot-v1`
@@ -47,4 +68,3 @@ identities.
 
 These packages are retained for provenance. A later version or recovery does
 not retroactively change an earlier package's frozen status.
-

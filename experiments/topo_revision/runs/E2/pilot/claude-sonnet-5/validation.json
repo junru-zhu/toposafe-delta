@@ -1,0 +1,22 @@
+{
+  "control_rates": {
+    "control_false_safe": 1.0,
+    "control_true_protected": 0.0
+  },
+  "errors": [
+    "control_true_protected rate 0.000 below 0.90"
+  ],
+  "expected_rows": 52,
+  "experiment": "E2",
+  "extra_episode_ids": [],
+  "malformed_or_truncated": 0,
+  "malformed_or_truncated_rate": 0.0,
+  "missing_episode_ids": [],
+  "model_slug": "claude-sonnet-5",
+  "observed_rows": 52,
+  "passed": false,
+  "policy_invalid_committed_actions_under_gate": 0,
+  "provider_completion": 1.0,
+  "provider_errors": 0,
+  "stage": "pilot"
+}

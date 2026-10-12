@@ -1,0 +1,30 @@
+\begin{tabular}{lllrrll}
+\toprule
+Experiment & Stage & Model & Rows & Provider errors & Original validator & Adjudicated status \\
+\midrule
+E1 & pilot & gpt-5.4 & 0 & 0 & False & invalid\_or\_not\_run \\
+E1 & pilot & claude-sonnet-5 & 40 & 0 & True & valid \\
+E1 & pilot & nemotron-3-super-120b & 40 & 0 & True & valid \\
+E1 & pilot & llama-4-maverick & 40 & 0 & True & valid \\
+E1 & formal & gpt-5.4 & 0 & 0 & False & invalid\_or\_not\_run \\
+E1 & formal & claude-sonnet-5 & 600 & 0 & True & valid \\
+E1 & formal & nemotron-3-super-120b & 600 & 0 & True & valid \\
+E1 & formal & llama-4-maverick & 600 & 0 & True & valid \\
+E2 & pilot & gpt-5.4 & 0 & 0 & False & invalid\_or\_not\_run \\
+E2 & pilot & claude-sonnet-5 & 52 & 0 & False & invalid\_or\_not\_run \\
+E2 & pilot & nemotron-3-super-120b & 52 & 0 & False & invalid\_or\_not\_run \\
+E2 & pilot & llama-4-maverick & 52 & 0 & True & valid \\
+E2 & formal & gpt-5.4 & 0 & 0 & False & invalid\_or\_not\_run \\
+E2 & formal & claude-sonnet-5 & 0 & 0 & False & invalid\_or\_not\_run \\
+E2 & formal & nemotron-3-super-120b & 0 & 0 & False & invalid\_or\_not\_run \\
+E2 & formal & llama-4-maverick & 976 & 0 & True & valid \\
+E3 & pilot & gpt-5.4 & 0 & 0 & False & invalid\_forward\_schema\_gate \\
+E3 & pilot & claude-sonnet-5 & 72 & 0 & True & invalid\_forward\_schema\_gate \\
+E3 & pilot & nemotron-3-super-120b & 72 & 0 & True & clean\_pilot\_block \\
+E3 & pilot & llama-4-maverick & 72 & 0 & True & invalid\_forward\_schema\_gate \\
+E3 & formal & gpt-5.4 & 0 & 0 & False & invalid\_or\_not\_run \\
+E3 & formal & claude-sonnet-5 & 0 & 0 & False & invalid\_or\_not\_run \\
+E3 & formal & nemotron-3-super-120b & 0 & 0 & False & invalid\_or\_not\_run \\
+E3 & formal & llama-4-maverick & 0 & 0 & False & invalid\_or\_not\_run \\
+\bottomrule
+\end{tabular}

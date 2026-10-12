@@ -25,11 +25,24 @@ execution_topology_extension:
   manuscript_integration: false
   blocker: "GPT-5.4 formal block incomplete after bounded transport-timeout recovery attempts"
 
+topo_revision:
+  root: "experiments/topo_revision"
+  protocol: "TopoSafe-Delta-Revision-v1.0"
+  frozen_manifest_commit: "ef54672"
+  status: "e1_three_model_formal_e2_one_model_formal_e3_one_clean_pilot"
+  e1: "three valid formal model blocks; GPT-5.4 not run"
+  e2: "deterministic cut validated; one valid Llama formal block"
+  e3: "formal not run; Nemotron-only clean pilot after strict audit"
+  e4: "not run"
+  manuscript_integration: false
+  final_report: "experiments/topo_revision/FINAL_RESEARCH_REPORT.md"
+
 evidence_rules:
   - "Keep parent, recovery, and sensitivity packages separate."
   - "Do not convert failed frozen gates into passes."
   - "Do not claim four-model replication from the three-model sensitivity."
   - "Do not treat synthetic executable outcomes as demonstrated real-world harm."
+  - "Do not promote E2 one-model behavior or E3 pilot evidence to cross-model formal conclusions."
 
 artifacts:
   experiment_index: "EXPERIMENTS.md"
@@ -38,4 +51,4 @@ artifacts:
   paper_plan: "docs/toposafe-authority-topology-paper-plan.md"
   claim_audit: "reviews/toposafe-naacl-claim-integrity-audit.md"
   literature: "output/literature-search/causal-topology-safety/papers.md"
-
+  topo_revision_report: "experiments/topo_revision/FINAL_RESEARCH_REPORT.md"

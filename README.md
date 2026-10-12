@@ -34,8 +34,10 @@ synthetic protected-action tasks:
 
 1. Communication, authorization, and execution must be intervened on
    separately to identify which layer changes executable safety.
-2. Authentication can increase acceptance of both true and false claims
-   without improving truth discrimination.
+2. The historical authenticated-observation intervention increased acceptance
+   in two valid model blocks, but the newer provenance-only intervention did
+   not reproduce a uniform positive effect. Authentication, source identity,
+   authorization, and truth are distinct estimands.
 3. Moving one authority between source, relay, and verifier does not create a
    stable advantage when the authority cut remains one.
 4. Communication-topology effects are model-conditional after authority and
@@ -45,13 +47,17 @@ synthetic protected-action tasks:
    fail-closed deterministic verification is what prevents invalid proofs from
    reaching protected execution.
 
-The 2026-10-12 execution-topology extension is included in this repository but
-is **not integrated into the paper's formal claims**. Claude Sonnet 5, Llama 4
-Maverick, and Nemotron 3 Super 120B were collected; the GPT-5.4 block remained
-incomplete after bounded transport-timeout recovery attempts. Its three-model
-analysis is explicitly labeled sensitivity evidence.
+The 2026-10-12 revision package is under
+[`experiments/topo_revision/`](experiments/topo_revision/). It contains a
+frozen E1--E3 protocol, raw runs, validations, analyses, costs, and paper-ready
+figures. E1 has three complete formal model blocks. E2 has one valid formal
+behavioral model block. E3 has one clean pilot block after strict post-run
+forwarder auditing and no formal run. These boundaries are not yet integrated
+into the evidence-frozen manuscript.
 
-See [`STATUS.md`](STATUS.md) and [`EXPERIMENTS.md`](EXPERIMENTS.md) for exact
+See the
+[`final revision report`](experiments/topo_revision/FINAL_RESEARCH_REPORT.md),
+[`STATUS.md`](STATUS.md), and [`EXPERIMENTS.md`](EXPERIMENTS.md) for exact
 status boundaries.
 
 ## Repository layout
@@ -94,4 +100,3 @@ do not require live model calls.
 - Raw provider outputs are retained for private reproducibility review.
 - The repository is a private research snapshot. No public artifact release or
   venue submission is implied.
-
